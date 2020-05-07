@@ -50,7 +50,7 @@ text-align: center;
 opacity:0.8;
 /* Position the wktitle */
 position: absolute;
-z-index: 1;
+z-index: -1;
 }
 
 .wktitle:hover .pic {
@@ -74,25 +74,25 @@ img{
 	position: absolute;
 	z-index: 1;
 	top: -40%;
-	left: 190%;
+	left: 210%;
 	}
 .wktitle #pic3{	
 	position: absolute;
 	z-index: 1;
 	top: -50%;
-	left: 60%;
+	left: 70%;
 	}
 .wktitle #pic4{	
 	position: absolute;
 	z-index: 1;
 	top: -30%;
-	left: 150%;
+	left: 210%;
 	}
 .wktitle #pic5{	
 	position: absolute;
 	z-index: 1;
 	top: -60%;
-	left: 90%;
+	left: 80%;
 	}
 .wktitle #pic6{	
 	position: absolute;
@@ -104,11 +104,11 @@ img{
 	position: absolute;
 	z-index: 1;
 	top: -80%;
-	left: 50%;
+	left: 60%;
 	}
 .wktitle #pic8{	
 	position: absolute;
 	z-index: 1;
 	top: -60%;
-	left: 160%;
+	left: 200%;
 	}
