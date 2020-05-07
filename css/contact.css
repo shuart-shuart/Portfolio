@@ -1,0 +1,53 @@
+/*columns*/
+.columns{
+	max-width: 33vw;
+	min-width: 33vw;
+	max-height: 95vh;
+	height: 95vh;
+	display: block;
+	position: fixed;
+	font-size: 14pt;
+	overflow: scroll;
+	top: 0vh;
+	}
+	
+#LHS{
+	/*background-color: pink;*/
+	transform: translate(0vw, 7vh);
+	}
+	
+#MHS{
+	/*background-color: pink;*/
+	transform: translate(33.5vw, 7vh);
+	}
+		
+#RHS{
+	/*background-color: pink;*/
+	transform: translate(67vw, 7vh);
+	}
+ 	
+a{
+ 	text-decoration: none;
+ 	color: black;
+ 	}
+
+/*contact*/
+.contact{
+	text-align: center;
+	padding: 40vh 0;
+	text-decoration: underline;
+	font-size: 12pt;
+	opacity: 0.8;
+	}
+	
+#contact{
+	width: ;
+	display: block;
+	padding-bottom: 5pt;
+	margin: auto;
+	}
+	
+#contact:hover{
+	font-style: italic;
+	color: grey;
+	}

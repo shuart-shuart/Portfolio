@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shu</title>
+
+<!--links for style files (no more style block)-->
+	/*font*/<link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+	/*theme*/<link rel="stylesheet" type="text/css" href="file:///Users/shu/Desktop/Portfolio/css/main.css"> 
+	/*about*/<link rel="stylesheet" type="text/css" href="file:///Users/shu/Desktop/Portfolio/css/about.css">
+<style>
+</style>
+</head>
+
+<body>
+
+<!--nav bar-->
+<nav role="navigation">
+	<ul class="navbar">
+		<li class="navspot" id="nav1"><a href="/about">about<a></li>
+		<li class="navspot" id="nav2"><a href="/works">works<a></li>
+		<li class="navspot" id="nav3"><a href="/contact">contact<a></li>
+	</ul>
+</nav>
+
+<!--1st column-->
+<div class="columns" id="LHS">
+	<div class="profile">
+		<div class="para">
+			<p>
+			<span style="font-weight:900">Hong Shu-ying</span> (b.1997, Singapore) negotiates different 
+			coping methods to deal with loss, absences, and revelations. She seeks to better 
+			understand the relationship between self, others, time, and space. Her works 
+			span mediums like photography and time-based processes.
+			</p>
+			<p>
+			Shu-ying is currently pursuing her BFA in Media Art (Photography) at the 
+			Nanyang Technological University, School of Art, Design and Media.
+			</p>
+		</div>
+		<span class="click" onclick="showcv()"> cv </span>
+	</div>
+</div>
+
+<!--2nd column-->
+<div class="columns" id="RHS">
+<!--CV-->
+	<div id="cv">
+	<span class="big">EDUCATION</span>
+		<dl>
+			<dt>2017-	School of Art, Design and Media, Nanyang Technological University</dt>
+				<dd>		Bachelor of Fine Arts in Media Art<dd>
+			<br>
+		</dl> 
+	<span class="big">EXHIBITIONS</span>
+		<dl>
+			<dt>2020	Sensitivities</dt>
+				<dd>PRACTICE PRACTICE, Singapore</dd>
+			<br>
+			<dt>2020	Bearings</dt>
+				<dd>ADM Gallery, Singapore</dd>
+			<br>
+			<dt>2019	Pingyao International Photography Festival</dt>
+				<dd>Pingyao, China</dd>
+			<br>
+			<dt>2017	SMU ArtsFest</dt>
+				<dd>Singapore Management University, Singapore</dd>
+			<br>
+			<dt>2016	Noise Singapore Festival Exhibition Showcase</dt>
+				<dd>Capitol Plaza, Singapore</dd>
+			<br>
+			<dt>2015	PEACH Exhibition</dt>
+				<dd>Hwa Chong Institution, Singapore</dd>
+			<br>
+			<dt>2014	Baby Tropical Lab: Land</dt>
+				<dd>LaSalle College of Fine Arts (Winstedt Campus), Singapore</dd>
+			<br>
+			<dt>2014	Little Booklets</dt>
+				<dd>Nanyang Girls' High School, Singapore</dd>
+			<br>
+			<dt>2013	NYAEP Graduating Art Show 2013</dt>
+				<dd>Nanyang Girls' High School, Singapore</dd>
+			<br>
+		</dl>
+	<span class="big">RESIDENCIES & PROGRAMS</span>
+		<dl>
+			<dt>2020	Inaugural Mentorship Program Open Studios</dt>
+			<dd>PRACTICE PRACTICE, Singapore</dd>
+			<br>
+		</dl>
+	</div>
+</div>
+
+<!--javascript for cv-->
+<script>
+	function showcv() {
+		document.getElementById("cv").style.display = "block";
+	}
+</script>
+
+<!--footer-->
+<footer>
+	<span>© 2020 Hong Shu-ying 方舒颖</span>
+</footer>
+</body>
+
+</html>

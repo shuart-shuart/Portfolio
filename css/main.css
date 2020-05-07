@@ -1,0 +1,73 @@
+/*nav bar*/
+.navspot a{
+	color: black;
+	text-decoration: none;
+	}
+	
+.navspot a:hover {
+	opacity: 0.7;
+	}
+
+.navbar{
+	list-style-type: none;
+	position: fixed;
+	padding:0;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	background-color: white;
+	text-align: center;
+	font-size: 12pt;
+	transform: translate(0vw, -1vh);
+	}
+
+.navspot{
+	display: inline;
+	margin: 0;
+	padding:0;
+	color: black;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	width: 33vw;
+	float: left;
+	}
+
+/*footer*/
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100vw;
+	background-color: white;
+	text-align: center;
+	height: 3vh;
+	padding: 5pt;
+	font-size: 9pt;
+	}
+	
+/*scrollbar*/
+::-webkit-scrollbar { /* width */
+	width: 8px;
+	}
+
+::-webkit-scrollbar-track { /* Track */
+	background: white;
+	/*rgba(245, 122, 122, 0.3); /*cool pink*/
+	}
+ 
+::-webkit-scrollbar-thumb { /* Handle */
+	background: rgba(242, 44, 48, 0.05); /*warm pink*/
+	}
+
+::-webkit-scrollbar-thumb:hover { /* Handle on hover */
+	background: rgba(242, 44, 48, 0.1); /*warm pink*/
+	}
+
+/*body*/
+body{
+	font-family: 'Barlow', sans-serif;
+	font-weight: 100;
+	padding: 0;
+	cursor: crosshair;
+	}
+	

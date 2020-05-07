@@ -1,0 +1,114 @@
+/*columns*/
+.columns{
+	max-width: 99vw;
+	min-width: 99vw;
+	max-height: 95vh;
+	height: 95vh;
+	display: block;
+	position: fixed;
+	font-size: 14pt;
+	overflow: scroll;
+	top: 0vh;
+	margin: auto;
+	}
+	
+#MHS{
+	}
+			
+/*list of works*/
+.worklist{
+ 	text-align: center;
+ 	display: block;
+ 	margin: 0;
+	padding: 25vh 0;
+ 	font-weight: 600;
+ 	}
+ 	
+.wktitle{
+ 	display: block;
+ 	padding: 5pt;
+ 	opacity: 0.8;
+ 	position: relative;
+ 	}
+ 	
+a{
+ 	text-decoration: none;
+ 	color: black;
+ 	}
+ 	
+.wklink:hover{
+ 	font-style: italic;
+ 	opacity: 0.3;
+ 	}
+ 	
+/*pictures*/
+.wktitle .pic {
+visibility: hidden;
+width: 300px;
+height: 300px;
+text-align: center;
+opacity:0.8;
+/* Position the wktitle */
+position: absolute;
+z-index: 1;
+}
+
+.wktitle:hover .pic {
+visibility: visible;
+}
+
+img{
+	max-width: 300px;
+	max-height: 300px;
+	width: auto;
+	height: auto;
+	}
+	
+.wktitle #pic1{	
+	position: absolute;
+	z-index: 1;
+	top: -40%;
+	left: 80%;
+	}
+.wktitle #pic2{	
+	position: absolute;
+	z-index: 1;
+	top: -40%;
+	left: 190%;
+	}
+.wktitle #pic3{	
+	position: absolute;
+	z-index: 1;
+	top: -50%;
+	left: 60%;
+	}
+.wktitle #pic4{	
+	position: absolute;
+	z-index: 1;
+	top: -30%;
+	left: 150%;
+	}
+.wktitle #pic5{	
+	position: absolute;
+	z-index: 1;
+	top: -60%;
+	left: 90%;
+	}
+.wktitle #pic6{	
+	position: absolute;
+	z-index: 1;
+	top: -50%;
+	left: 180%;
+	}
+.wktitle #pic7{	
+	position: absolute;
+	z-index: 1;
+	top: -80%;
+	left: 50%;
+	}
+.wktitle #pic8{	
+	position: absolute;
+	z-index: 1;
+	top: -60%;
+	left: 160%;
+	}

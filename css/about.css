@@ -1,0 +1,91 @@
+/*columns*/
+.columns{
+	max-height: 95vh;
+	height: 90vh;
+	display: block;
+	position: fixed;
+	font-size: 14pt;
+	overflow: scroll;
+	top: 0vh;
+	}
+	
+#LHS{
+	/*background-color: pink;*/
+	max-width: 33vw;
+	min-width: 33vw;
+	transform: translate(0vw, 7vh);
+	}
+		
+#RHS{
+	/*background-color: pink;*/
+	max-width: 65vw;
+	min-width: 65vw;
+	transform: translate(33vw, 7vh);
+	}
+
+/*profile*/
+.profile{
+	text-align: center;
+	width: 85%;
+	margin: auto;
+	padding: 5vw 4vw;
+	}
+	
+.para{
+	text-align: justify;
+	font-size: 11pt;
+	width: 100%;
+	}	
+
+.click{
+ 	text-decoration: underline;
+ 	text-decoration-style: dashed;
+ 	color: black;
+ 	opacity:0.85;
+ 	}
+ 	
+.click:hover{
+	font-style: italic;
+ 	opacity:0.5;
+ 	}
+ 	
+ /*cv*/
+#cv{ /*display none; on click then appear*/
+	max-width: 95%;
+	height: 98vh;
+	text-align: left;
+	overflow: visible;
+	margin: auto;
+	padding: 5vw;
+	padding-left: 7vw;
+	display: none;
+	}
+
+.big{
+	font-weight: 700;
+	font-size: 12pt;
+	margin: auto;
+	padding: 0pt;
+	}
+	
+dl{
+	padding: 0;
+	padding-left: 10pt;
+	line-height: 0.9;
+	margin: 3pt;
+	}
+
+dt{
+	font-size: 11pt;
+	opacity:0.85;
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+	}
+	
+dd{
+	font-size: 10pt;
+	opacity:0.5;
+	padding: 0;
+	line-height: 1.2;
+	}
