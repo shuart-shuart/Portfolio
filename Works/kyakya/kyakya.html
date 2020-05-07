@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shu</title>
+
+<!--links for style files (no more style block)-->
+	/*font*/<link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+	/*theme*/<link rel="stylesheet" type="text/css" href="file:///Users/shu/Desktop/Portfolio/css/main.css"> 
+	/*artwork*/<link rel="stylesheet" type="text/css" href="file:///Users/shu/Desktop/Portfolio/css/artwork.css">
+<style>
+</style>
+</head>
+
+<body>
+
+<!--nav bar-->
+<nav role="navigation">
+	<ul class="navbar">
+		<li class="navspot" id="nav1"><a href="/about">about<a></li>
+		<li class="navspot" id="nav2"><a href="/works">works<a></li>
+		<li class="navspot" id="nav3"><a href="/contact">contact<a></li>
+	</ul>
+</nav>
+
+<!--1st column-->
+<div class="columns" id="LHS">
+	<div class=info>
+		<div class="label">
+			<h2>artwork title</h2>
+			<h3>
+				year <br>
+				medium<br>
+			</h3>
+		</div>
+		
+		<button type="button" onclick="showpara()" id="dots">more</button>
+		
+		<div id="para">
+			<p>
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			</p>
+			<p>
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			qwertyuiopa sdfghjklz xcvbnm,dfghjkk erftgyhju kcvbnm,
+			</p>
+		</div>
+	</div>
+</div>
+
+<!--javascript for cv-->
+<script>
+	function showpara() {
+		document.getElementById("para").style.display = "block";
+		document.getElementById("dots").style.display = "none";
+	}
+</script>
+
+
+<!--2nd column-->
+<main>
+<div class="columns" id="RHS">
+	<div class="gallery">
+		<div>
+		<img class="photo" src="file:///Users/shu/Desktop/Portfolio/DP.jpg">
+		<br>
+		<p class="captions">
+		captions
+		<span class="credits">Photo credits:</span>
+		</p></div>
+		
+		<div>
+		<img class="photo" src="file:///Users/shu/Desktop/Portfolio/DP.jpg">
+		<br>
+		<p class="captions">
+		captions
+		<span class="credits">Photo credits:</span>
+		</p></div>
+		
+		<div>
+		<img class="photo" src="file:///Users/shu/Desktop/Portfolio/DP.jpg">
+		<br>
+		<p class="captions">
+		captions
+		<span class="credits">Photo credits:</span>
+		</p></div>
+	</div>
+</div>
+</main>
+
+<!--footer-->
+<footer>
+	<span>© 2020 Hong Shu-ying 方舒颖</span>
+</footer>
+</body>
+
+</html>
