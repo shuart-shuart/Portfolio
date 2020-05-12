@@ -41,15 +41,14 @@
 h2{ /*artwork title*/
 	font-style: italic;
 	font-weight: 600;
-	font-size: 13pt;
+	font-size: 12pt;
 	margin: auto;
 	padding-top: 25vh;
 	}
 	
 h3{ /*artwork info*/
 	text-decoration: none;
-	font-weight: 400;
-	font-size: 12pt;
+	font-size: 11pt;
 	margin: auto;
 	}
 
