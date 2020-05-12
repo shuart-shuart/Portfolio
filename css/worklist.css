@@ -65,50 +65,43 @@ img{
 	}
 	
 .wktitle #pic1{	
-	position: absolute;
-	z-index: 1;
-	top: -40%;
-	left: 80%;
+	position: fixed;
+	transform: translate(5%, 10%);
+	/*top: -40%;
+	left: 80%;*/
 	}
 .wktitle #pic2{	
-	position: absolute;
-	z-index: 1;
+	position: fixed;
 	top: -40%;
 	left: 210%;
 	}
 .wktitle #pic3{	
-	position: absolute;
-	z-index: 1;
+	position: fixed;
 	top: -50%;
 	left: 70%;
 	}
 .wktitle #pic4{	
-	position: absolute;
-	z-index: 1;
+	position: fixed;
 	top: -30%;
 	left: 210%;
 	}
 .wktitle #pic5{	
-	position: absolute;
-	z-index: 1;
+	position: fixed;
 	top: -60%;
 	left: 80%;
 	}
 .wktitle #pic6{	
-	position: absolute;
-	z-index: 1;
+	position: fixed;
 	top: -50%;
 	left: 180%;
 	}
 .wktitle #pic7{	
-	position: absolute;
-	z-index: 1;
+	position: fixed;
 	top: -80%;
 	left: 60%;
 	}
 .wktitle #pic8{	
-	position: absolute;
-	z-index: 1;
+	position: fixed;
 	top: -60%;
 	left: 200%;
 	}
