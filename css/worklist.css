@@ -4,7 +4,7 @@
 	min-width: 99vw;
 	height: auto;
 	display: block;
-	position: relative;
+	position: fixed;
 	font-size: 14pt;
 	overflow: auto;
 	top: 0vh;
@@ -22,6 +22,7 @@
 	padding: 25vh 0;
  	font-weight: 600;
  	max-height: 95vh;
+ 	overflow: scroll;
  	}
  	
 .wktitle{
@@ -39,6 +40,7 @@ a{
 .wklink:hover{
  	font-style: italic;
  	opacity: 0.3;
+ 	z-index: 1;
  	}
  	
 /*pictures*/
@@ -49,7 +51,7 @@ height: 300px;
 text-align: center;
 opacity:0.8;
 /* Position the wktitle */
-position: relative;
+position: fixed;
 z-index: -10;
 }
 
@@ -65,43 +67,42 @@ img{
 	}
 	
 .wktitle #pic1{	
-	position: relative;
-	transform: translate(5%, 10%);
-	/*top: -40%;
-	left: 80%;*/
+	position: fixed;
+	top: -40%;
+	left: 80%;
 	}
 .wktitle #pic2{	
-	position: relative;
+	position: fixed;
 	top: -40%;
 	left: 210%;
 	}
 .wktitle #pic3{	
-	position: relative;
+	position: fixed;
 	top: -50%;
 	left: 70%;
 	}
 .wktitle #pic4{	
-	position: relative;
+	position: fixed;
 	top: -30%;
 	left: 210%;
 	}
 .wktitle #pic5{	
-	position: relative;
+	position: fixed;
 	top: -60%;
 	left: 80%;
 	}
 .wktitle #pic6{	
-	position: relative;
+	position: fixed;
 	top: -50%;
 	left: 180%;
 	}
 .wktitle #pic7{	
-	position: relative;
+	position: fixed;
 	top: -80%;
 	left: 60%;
 	}
 .wktitle #pic8{	
-	position: relative;
+	position: fixed;
 	top: -60%;
 	left: 200%;
 	}
