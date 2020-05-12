@@ -18,14 +18,13 @@
 		
 #RHS{
 	/*background-color: pink;*/
-	max-width: 74vw;
-	min-width: 74vw;
+	max-width: 73vw;
+	min-width: 73vw;
 	transform: translate(25vw, 7vh);
 	}
 	
 /*info*/
 .info{ /*text*/
-	text-align: justify;
 	width: 85%;
 	margin: auto;
 	}
@@ -55,6 +54,7 @@ h3{ /*artwork info*/
 	}
 
 #para{
+	text-align: justify;
 	font-size: 11pt;
 	width: 95%;
 	display: none;
