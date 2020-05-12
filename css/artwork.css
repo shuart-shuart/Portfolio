@@ -93,8 +93,9 @@ img{
 	
 /*button*/
 button{
-	background-color: grey;
-	opacity: 0.2;
+	background-color: rgba(242, 44, 48, 1);
+	color: rgba(242, 44, 48, 1);
+	opacity: 0.15;
 	text-align: center;
 	height:10pt;
 	width: 20vw;
@@ -102,8 +103,8 @@ button{
 	}
 	
 button:hover{
-	opacity: 0.5;
-	color: white;
+	opacity: 0.4;
+	color: grey;
 	}
 	
 #button{
