@@ -45,19 +45,19 @@ a{
  	
 /*pictures*/
 .wktitle .pic {
-visibility: hidden;
-width: 300px;
-height: 300px;
-text-align: center;
-opacity:0.8;
-/* Position the wktitle */
-position: absolute;
-z-index: -10;
-}
+	display: none;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	opacity:0.8;
+	/* Position the wktitle */
+	position: absolute;
+	z-index: -1;
+	}
 
 .wktitle:hover .pic {
-visibility: visible;
-}
+	display: block;
+	}
 
 img{
 	max-width: 300px;
