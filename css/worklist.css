@@ -41,6 +41,7 @@ a{
  	font-style: italic;
  	opacity: 0.3;
  	z-index: 1;
+ 	color: red;
  	}
  	
 /*pictures*/
@@ -52,7 +53,7 @@ a{
 	opacity:0.8;
 	/* Position the wktitle */
 	position: absolute;
-	z-index: -1;
+	z-index: -3;
 	}
 
 .wktitle:hover .pic {
