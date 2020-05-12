@@ -23,6 +23,7 @@
  	font-weight: 600;
  	max-height: 95vh;
  	overflow: scroll;
+ 	color: blue;
  	}
  	
 .wktitle{
@@ -30,7 +31,6 @@
  	padding: 5pt;
  	opacity: 0.8;
  	position: relative;
- 	color: red;
  	}
  	
 a{
