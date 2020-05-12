@@ -30,6 +30,7 @@
  	padding: 5pt;
  	opacity: 0.8;
  	position: relative;
+ 	color: red;
  	}
  	
 a{
@@ -41,15 +42,14 @@ a{
  	font-style: italic;
  	opacity: 0.3;
  	z-index: 1;
- 	color: red;
  	}
  	
 /*pictures*/
 .wktitle .pic {
 	display: none;
 	width: 300px;
-	height: 300px;
-	text-align: center;
+	height: 300px; /*
+	text-align: center;*/
 	opacity:0.8;
 	/* Position the wktitle */
 	position: absolute;
