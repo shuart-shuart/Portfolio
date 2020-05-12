@@ -41,7 +41,7 @@
 h2{ /*artwork title*/
 	font-style: italic;
 	font-weight: 600;
-	font-size: 12pt;
+	font-size: 13pt;
 	margin: auto;
 	padding-top: 25vh;
 	}
@@ -63,7 +63,7 @@ h3{ /*artwork info*/
 .gallery{
 	max-width: 95%;
 	height: 98vh;
-	text-align: center;
+	text-align: left;
 	overflow: visible;
 	margin: auto;
 	padding: 0;
