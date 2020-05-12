@@ -95,16 +95,17 @@ img{
 button{
 	background-color: rgba(242, 44, 48, 1);
 	color: rgba(242, 44, 48, 1);
-	opacity: 0.15;
+	opacity: 0.1;
 	text-align: center;
-	height:10pt;
+	height: 7pt;
 	width: 20vw;
 	margin: auto;
 	}
 	
 button:hover{
-	opacity: 0.4;
-	color: grey;
+	background-color: rgba(242, 44, 48, 0.3);
+	color: rgba(0, 0, 0, 0.8);
+	height: 15pt;
 	}
 	
 #button{
