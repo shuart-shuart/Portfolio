@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shu</title>
+
+<!--links for style files (no more style block)-->
+	<!--font--><link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+	<!--theme--><link rel="stylesheet" type="text/css" href="/Portfolio/css/main.css"> 
+	<!--artwork--><link rel="stylesheet" type="text/css" href="/Portfolio/css/artwork.css">
+<style>
+</style>
+</head>
+
+<body>
+
+<!--nav bar-->
+<nav role="navigation">
+	<ul class="navbar">
+		<li class="navspot" id="nav1"><a href="/Portfolio/About.html">about</a></li>
+		<li class="navspot" id="nav2"><a href="/Portfolio/Index.html">works</a></li>
+		<li class="navspot" id="nav3"><a href="/Portfolio/Contact.html">contact</a></li>
+	</ul>
+</nav>
+
+<!--1st column-->
+<div class="columns" id="LHS">
+	<div class=info>
+		<div class="label">
+			<h2>Untitled (Tissues and Photos)</h2>
+			<h3>
+				2019<br>
+				Mixed Media Collage<br>
+			</h3>
+		</div>
+		
+		<button type="button" onclick="showpara()" id="dots">more</button>
+		
+		<div id="para">
+			<p>
+		<span style="font-style:italic">Untitled (Tissues and Photos)</span> was born out of an instinct-driven process of purging, 
+		revisiting and obscuring writings and photos of my father. Writing in Chinese is a way for me to slow down my thoughts; 
+		it is a language I speak and think in, but seldom write.
+			</p>
+		</div>
+	</div>
+</div>
+
+<!--javascript for cv-->
+<script>
+	function showpara() {
+		document.getElementById("para").style.display = "block";
+		document.getElementById("dots").style.display = "none";
+	}
+</script>
+
+
+<!--2nd column-->
+<main>
+<div class="columns" id="RHS">
+	<div class="gallery">
+		<div>
+		<img class="photo" src="img/tissue_1000px_1.jpg">
+		<br>
+		<p class="captions"> 
+		<span class="credits"> </span>
+		</p></div>
+		
+		<div>
+		<img class="photo" src="img/tissue_1000px_2.jpg">
+		<br>
+		<p class="captions">
+		details of artwork
+		</p></div>
+		
+		<div>
+		<img class="photo" src="img/tissue_1000px_3.jpg">
+		<br>
+		<p class="captions">
+		details of artwork
+		</p></div>
+	</div>
+</div>
+</main>
+
+<!--footer-->
+<footer>
+	<span>© 2020 Hong Shu-ying 方舒颖</span>
+</footer>
+</body>
+
+</html>
