@@ -72,7 +72,7 @@ h3{ /*artwork info*/
 
 img{
 	width: 90%;
-	max-height: 90%;
+	max-height: 90vh;
 	margin: auto;
 	padding-top: 2pt;
 	}
