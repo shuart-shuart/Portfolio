@@ -71,12 +71,13 @@ h3{ /*artwork info*/
 	}
 
 img{
-	width: 90%;
+	max-width: 90%;
 	max-height: 90vh;
+	width: auto;
 	margin: auto;
-	padding-top: 2pt;
+	padding-top: 5pt;
 	}
-	
+
 .captions{
 	font-size: 9pt;
 	text-align: left;
