@@ -11,16 +11,16 @@
 	
 #LHS{
 	/*background-color: pink;*/
-	max-width: 33vw;
-	min-width: 33vw;
+	max-width: 25vw;
+	min-width: 25vw;
 	transform: translate(0vw, 7vh);
 	}
 		
 #RHS{
 	/*background-color: pink;*/
-	max-width: 66vw;
-	min-width: 66vw;
-	transform: translate(33vw, 7vh);
+	max-width: 75vw;
+	min-width: 75vw;
+	transform: translate(25vw, 7vh);
 	}
 	
 /*info*/
@@ -98,7 +98,7 @@ button{
 	opacity: 0.3;
 	text-align: center;
 	max-height: 15pt;
-	width: 50pt;
+	width: 20vw;
 	margin: auto;
 	}
 	
