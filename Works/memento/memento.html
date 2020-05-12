@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shu - Memento Mori</title>
+
+<!--links for style files (no more style block)-->
+	<!--font--><link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+	<!--theme--><link rel="stylesheet" type="text/css" href="/Portfolio/css/main.css"> 
+	<!--artwork--><link rel="stylesheet" type="text/css" href="/Portfolio/css/artwork.css">
+<style>
+.photo_small{
+	width: 35vw;
+	}
+</style>
+</head>
+
+<body>
+
+<!--nav bar-->
+<nav role="navigation">
+	<ul class="navbar">
+		<li class="navspot" id="nav1"><a href="/Portfolio/About.html">about</a></li>
+		<li class="navspot" id="nav2"><a href="/Portfolio/Index.html">works</a></li>
+		<li class="navspot" id="nav3"><a href="/Portfolio/Contact.html">contact</a></li>
+	</ul>
+</nav>
+
+<!--1st column-->
+<div class="columns" id="LHS">
+	<div class=info>
+		<div class="label">
+			<h2>artwork title</h2>
+			<h3>
+				year <br>
+				medium<br>
+			</h3>
+		</div>
+		
+		<button type="button" onclick="showpara()" id="dots">more</button>
+		
+		<div id="para">
+			<p>
+			<span style="font-style:italic">
+			
+			
+			</p>
+		</div>
+	</div>
+</div>
+
+<!--javascript for cv-->
+<script>
+	function showpara() {
+		document.getElementById("para").style.display = "block";
+		document.getElementById("dots").style.display = "none";
+	}
+</script>
+
+
+<!--2nd column-->
+<main>
+<div class="columns" id="RHS">
+		<div>
+		<img class="photo" src="img/memento_1000px_1.jpg">
+		<br>
+		<p class="captions">
+		<span class="credits"></span>
+		</p></div>
+		
+		<div>
+		<img class="photo" src="img/memento_1000px_2.jpg">
+		<br>
+		<p class="captions">
+		<span class="credits"></span>
+		</p></div>
+		
+		<div>
+		<img class="photo" src="img/memento_1000px_3.jpg">
+		<br>
+		<p class="captions">
+		<span class="credits">Installation view at NTU ADM stairwell</span>
+		</p></div>	
+<!-- stills-->			
+		<div>
+		<img class="photo_small" src="img/stills/stills_1200px_1.jpg">
+		<img class="photo_small" src="img/stills/stills_1200px_2.jpg">
+		<br>
+		<p class="captions">
+		<span class="credits"></span>
+		</p></div>
+		
+		<div>
+		<img class="photo_small" src="img/stills/stills_1200px_3.jpg">
+		<img class="photo_small" src="img/stills/stills_1200px_4.jpg">
+		<br>
+		<p class="captions">
+		<span class="credits"></span>
+		</p></div>			
+		<div>
+		<img class="photo_small" src="img/stills/stills_1200px_5.jpg">
+		<img class="photo_small" src="img/stills/stills_1200px_6.jpg">
+		<br>
+		<p class="captions">
+		<span class="credits"></span>
+		</p></div>
+		
+		<div>
+		<img class="photo_small" src="img/stills/stills_1200px_7.jpg">
+		<img class="photo_small" src="img/stills/stills_1200px_8.jpg">
+		<br>
+		<p class="captions">
+		<span class="credits"></span>
+		</p></div>		
+			
+		<div>
+		<img class="photo_small" src="img/stills/stills_1200px_9.jpg">
+		<img class="photo_small" src="img/stills/stills_1200px_10.jpg">
+		<br>
+		<p class="captions">
+		<span class="credits"></span>
+		</p></div>
+		
+		<div>
+		<img class="photo_small" src="img/stills/stills_1200px_11.jpg">
+		<img class="photo_small" src="img/stills/stills_1200px_12.jpg">
+		<br>
+		<p class="captions">
+		Stills from <span style="font-style:italic">Memento Mori</span>
+		<span class="credits"></span>
+		</p></div>
+	</div>
+</div>
+</main>
+
+<!--footer-->
+<footer>
+	<span>© 2020 Hong Shu-ying 方舒颖</span>
+</footer>
+</body>
+
+</html>
