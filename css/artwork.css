@@ -96,7 +96,7 @@ button{
 	background-color: grey;
 	opacity: 0.2;
 	text-align: center;
-	max-height: 15pt;
+	height:10pt;
 	width: 20vw;
 	margin: auto;
 	}
