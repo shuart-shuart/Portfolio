@@ -2,12 +2,11 @@
 .columns{
 	max-width: 99vw;
 	min-width: 99vw;
-	max-height: 95vh;
-	height: 95vh;
+	height: auto;
 	display: block;
 	position: fixed;
 	font-size: 14pt;
-	overflow: scroll;
+	overflow: auto;
 	top: 0vh;
 	margin: auto;
 	}
@@ -22,6 +21,7 @@
  	margin: 0;
 	padding: 25vh 0;
  	font-weight: 600;
+ 	max-height: 95vh;
  	}
  	
 .wktitle{
@@ -49,8 +49,8 @@ height: 300px;
 text-align: center;
 opacity:0.8;
 /* Position the wktitle */
-position: absolute;
-z-index: -1;
+position: fixed;
+z-index: -10;
 }
 
 .wktitle:hover .pic {
