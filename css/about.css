@@ -107,7 +107,7 @@ dd{
 	}
  
  .para{
- 	font-size: 3vw;
+ 	font-size: 2vw;
  	}
  	
  #RHS{
@@ -120,18 +120,18 @@ dd{
     }   
     
 #cv{
-	padding: 15px;
-	padding-left: 20px;
+	padding: 5vw;
+	padding-left: 5vw;
 	}
 
 .big{
 	font-weight: 500;
-	font-size: 4vw;
+	font-size: 3vw;
 	}
 
 
 dt{
-	font-size: 3vw;
+	font-size: 2vw;
 	}
 	
 dd{

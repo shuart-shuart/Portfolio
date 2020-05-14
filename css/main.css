@@ -80,11 +80,13 @@ body{
     }   
     
 footer{
-	font-size: 3vw;
+	font-size: 2vw;
+	background-color: pink;
 	}
 	
 .body{
 	font-weight: 200;
 	font-size: 2vw;
+	min-font-size: 10pt;
 	}
 }
