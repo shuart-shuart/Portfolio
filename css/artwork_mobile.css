@@ -12,6 +12,7 @@
 	top: 5vh;
 	display: block;
 	text-align: left;
+	background-color: magenta;
 	}
 		
 #RHS{
@@ -94,5 +95,13 @@ img{
 	
 /*button*/
 button{
+	display: none;
+	}
+	
+button:hover{
+	display: none;
+	}
+	
+#button{
 	display: none;
 	}
