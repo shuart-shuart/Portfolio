@@ -76,7 +76,7 @@ body{
 /* Use a media query to add a breakpoint at 1080px: */
 @media screen and (max-width: 1080px) {
 .navbar{
-	font-size: 4vw;
+	font-size: 3vw;
     }   
     
 footer{
@@ -85,6 +85,6 @@ footer{
 	
 .body{
 	font-weight: 200;
-	font-size: 6vw;
+	font-size: 2vw;
 	}
 }
