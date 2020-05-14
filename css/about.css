@@ -95,7 +95,7 @@ dd{
 @media screen and (max-width: 1080px) {
 #LHS{
     max-width: 95vw; /* The width is 100%, when the viewport is 1080px or smaller */
-    max-height: 40vh;
+    max-height: 30vh;
     margin: auto;
     text-align: center;
     }
@@ -103,14 +103,39 @@ dd{
 .profile{
 	width: 70%;
 	text-align: center;
+	padding: 0;
 	}
  
+ .para{
+ 	font-size: 6vw;
+ 	}
+ 	
  #RHS{
     max-width: 95vw; 
     max-height: auto;
     overflow: scroll;
     margin: auto;
-    top: 40vh;
+    top: 30vh;
     left: -31vw;
     }   
+    
+#cv{
+	padding: 15px;
+	padding-left: 20px;
+	}
+
+.big{
+	font-weight: 500;
+	font-size: 7vw;
+	}
+
+
+dt{
+	font-size: 6vw;
+	}
+	
+dd{
+	font-size: 5vw;
+	}
+	
 }
