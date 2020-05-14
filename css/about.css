@@ -95,7 +95,7 @@ dd{
 @media screen and (max-width: 1080px) {
 #LHS{
     max-width: 95vw; /* The width is 100%, when the viewport is 1080px or smaller */
-    max-height: 30vh;
+    max-height: 25vh;
     margin: auto;
     text-align: center;
     }
@@ -115,23 +115,24 @@ dd{
     max-height: auto;
     overflow: scroll;
     margin: auto;
-    top: 30vh;
+    top: 25vh;
     left: -31vw;
+    background-color: red;
     }   
     
 #cv{
-	padding: 5vw;
-	padding-left: 5vw;
+	width: 75%;
+	padding: auto;
 	}
 
 .big{
 	font-weight: 500;
-	font-size: 3vw;
+	font-size: 2.7vw;
 	}
 
 
 dt{
-	font-size: 2vw;
+	font-size: 2.5vw;
 	}
 	
 dd{

@@ -76,12 +76,11 @@ body{
 /* Use a media query to add a breakpoint at 1080px: */
 @media screen and (max-width: 1080px) {
 .navbar{
-	font-size: 3vw;
+	font-size: 2.5vw;
     }   
     
 footer{
 	font-size: 2vw;
-	background-color: pink;
 	}
 	
 .body{
