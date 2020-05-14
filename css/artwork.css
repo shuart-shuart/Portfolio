@@ -127,7 +127,7 @@ button:hover{
 	
 .gallery{
 	max-width: 95vw;
-	height: 95vh;
+	height: 90vh;
 	}
 
 /*button*/
@@ -141,15 +141,16 @@ button{
 	}
 	
 .label{
-	min-height: 20vh;
-	background-color: pink;
+	min-height: 10vh;
+	max-height: auto;
+	background-color: magenta;
 	}
 
 h2{ /*artwork title*/
 	font-weight: 400;
 	font-size: 2.3vw;
 	padding-top: 5vh;
-	padding-bottom: 3pt;
+	padding-bottom: 7pt;
 	}
 	
 h3{ /*artwork info*/
@@ -161,5 +162,6 @@ h3{ /*artwork info*/
 	font-size: 2vw;
 	width: 95%;
 	display: block;
+	text-align: left;
 	}	
 }
