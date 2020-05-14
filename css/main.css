@@ -73,13 +73,18 @@ body{
 	cursor: crosshair;
 	}
 
-/* Use a media query to add a breakpoint at 900px: */
-@media screen and (max-width: 900px) {
+/* Use a media query to add a breakpoint at 1080px: */
+@media screen and (max-width: 1080px) {
 .navbar{
 	font-size: 4vw;
     }   
     
 footer{
 	font-size: 3vw;
+	}
+	
+.body{
+	font-weight: 200;
+	font-size: 6vw;
 	}
 }
