@@ -52,8 +52,8 @@ a{
 	color: grey;
 	}
 	
-/* Use a media query to add a breakpoint at 900px: */
-@media screen and (max-width: 900px) {
+/* Use a media query to add a breakpoint at 1080px: */
+@media screen and (max-width: 1080px) {
 .columns{
 	max-width: 95vw;
 	min-width: 33vw;
