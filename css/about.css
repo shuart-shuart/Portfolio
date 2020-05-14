@@ -93,12 +93,22 @@ dd{
 
 /* Use a media query to add a breakpoint at 10800px: */
 @media screen and (max-width: 1080px) {
+.columns{
+	height: auto;
+	max-height: 95vh;
+	padding: 0;
+	}
+
 #LHS{
-    max-width: 95vw; /* The width is 100%, when the viewport is 1080px or smaller */
-    max-height: 20vh;
-    overflow: auto;
+    max-width: 100vw;
+    height: 25vh;
+    max-height: 25vh;
+    overflow: scroll;
     margin: auto;
-    text-align: center;
+    padding: 0;
+    background: green;
+    top: 0;
+    left:0;
     }
     
 .profile{
@@ -107,24 +117,24 @@ dd{
 	padding: 0;
 	}
  
- .para{
+.para{
  	font-size: 2vw;
  	}
  	
- #RHS{
-    max-width: 95vw; 
-    max-height: auto;
+#RHS{
+    width: 100vw;
+    max-width: 100vw; 
+    height: 70vh;
     overflow: scroll;
-    margin: auto;
-    padding-top: 0;
-    top: 20vh;
-    left: -31vw;
-    background-color: navy;
+    transform: translate(0vw, 26vh);
+    left: 0;
+    padding: 0;
+    background-color: red;
     }   
     
 #cv{
 	width: 75%;
-	padding: auto;
+	padding: 20px;
 	}
 
 .big{
