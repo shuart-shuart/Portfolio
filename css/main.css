@@ -72,4 +72,14 @@ body{
 	padding: 0;
 	cursor: crosshair;
 	}
-	
+
+/* Use a media query to add a breakpoint at 900px: */
+@media screen and (max-width: 900px) {
+.navbar{
+	font-size: 4vw;
+    }   
+    
+footer{
+	font-size: 3vw;
+	}
+}
