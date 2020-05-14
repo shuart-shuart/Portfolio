@@ -59,8 +59,8 @@ h3{ /*artwork info*/
  	
 /*images*/
 .gallery{
-	max-width: 90vh;
-	height: 98vh;
+	max-width: 95vw;
+	height: 95vh;
 	text-align: center;
 	overflow: scroll;
 	margin: auto;
@@ -120,9 +120,15 @@ button:hover{
 	}
 		
 #RHS{
-	max-width: 76vw;
-	min-width: 76vw;
+	max-width: 78vw;
+	min-width: 78vw;
 	transform: translate(20vw, 3vh);
+	}
+	
+.gallery{
+	max-width: 95vw;
+	height: 95vh;
+	background-color: purple;
 	}
 	
 .info{ /*text*/
@@ -132,11 +138,11 @@ button:hover{
 	
 .label{
 	min-height: 30vh;
-	background-color: grey;
+	background-color: green;
 	}
 
 h2{ /*artwork title*/
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 2.3vw;
 	padding-top: 10vh;
 	}
