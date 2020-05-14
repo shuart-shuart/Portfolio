@@ -93,22 +93,36 @@ dd{
 
 /* Use a media query to add a breakpoint at 10800px: */
 @media screen and (max-width: 1080px) {
+
 .columns{
 	height: auto;
-	max-height: 95vh;
-	padding: 0;
+	display: block;
+	overflow: scroll;
+	width: 100%;
+	text-align: center;
 	}
-
+	
 #LHS{
-    max-width: 100vw;
-    height: 25vh;
-    max-height: 25vh;
-    overflow: scroll;
-    margin: auto;
-    padding: 0;
-    top: 0;
-    left:0;
-    }
+	max-width: 100vw;
+	min-width: 100vw;
+	max-height: 30vh;
+	overflow: fit;
+	display: block;
+	text-align: left;
+	}
+		
+#RHS{
+	max-width: 100vw;
+	min-width: 100vw;
+	height: 60vh;
+	overflow: auto;
+	display: block;
+	z-index: -1;
+	padding-top: 3vh;
+	transform: translate(0vw, 33vh);
+	}
+    
+/*profile*/
     
 .profile{
 	width: 70%;
@@ -121,19 +135,11 @@ dd{
  	}
  	
 .click{
-	font-size:3vw;
+	font-size: 4vw;
+	opacity: 0.5;
 	}
- 	
-#RHS{
-    width: 100vw;
-    max-width: 100vw; 
-    height: 70vh;
-    overflow: scroll;
-    transform: translate(0vw, 30vh);
-    left: 0;
-    padding: 0;
-    }   
-    
+ 	  
+/*cv*/  
 #cv{
 	width: 75%;
 	padding: 20px;
