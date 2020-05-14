@@ -10,14 +10,12 @@
 	}
 	
 #LHS{
-	background-color: red;
 	max-width: 25vw;
 	min-width: 25vw;
 	transform: translate(0vw, 7vh);
 	}
 		
 #RHS{
-	*background-color: pink;*
 	max-width: 73vw;
 	min-width: 73vw;
 	transform: translate(25vw, 7vh);
@@ -111,3 +109,44 @@ button:hover{
 #button{
 	display: block;
 	}
+
+/* Use a media query to add a breakpoint at 1080px: */
+@media screen and (max-width: 1080px) {
+
+#LHS{
+	max-width: 20vw;
+	min-width: 20vw;
+	transform: translate(0vw, 3vh);
+	}
+		
+#RHS{
+	max-width: 76vw;
+	min-width: 76vw;
+	transform: translate(20vw, 3vh);
+	}
+	
+.info{ /*text*/
+	width: 95%;
+	background-color: red;
+	}
+	
+.label{
+	min-height: 30vh;
+	background-color: grey;
+	}
+
+h2{ /*artwork title*/
+	font-weight: 400;
+	font-size: 2.3vw;
+	padding-top: 10vh;
+	}
+	
+h3{ /*artwork info*/
+	font-size: 2vw;
+	}
+
+#para{
+	font-size: 2vw;
+	width: 95%;
+	}	
+}
