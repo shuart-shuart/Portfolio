@@ -91,8 +91,8 @@ dd{
 	}
 	
 
-/* Use a media query to add a breakpoint at 600px: */
-@media screen and (max-width: 600px) {
+/* Use a media query to add a breakpoint at 900px: */
+@media screen and (max-width: 900px) {
 #LHS{
     max-width: 95vw; /* The width is 100%, when the viewport is 800px or smaller */
     max-height: 40vh;
@@ -107,12 +107,10 @@ dd{
  
  #RHS{
     max-width: 95vw; /* The width is 100%, when the viewport is 800px or smaller */
-    max-height: 57vh;
+    max-height: auto;
     overflow: scroll;
     margin: auto;
     top: 40vh;
     left: -31vw;
     }   
-
-
 }
