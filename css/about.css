@@ -129,7 +129,7 @@ dd{
     max-width: 100vw; 
     height: 70vh;
     overflow: scroll;
-    transform: translate(0vw, 26vh);
+    transform: translate(0vw, 30vh);
     left: 0;
     padding: 0;
     }   

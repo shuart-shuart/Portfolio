@@ -30,6 +30,7 @@
  	padding: 5pt;
  	opacity: 0.8;
  	position: relative;
+ 	font-size: 20pt;
  	}
  	
 a{
@@ -108,8 +109,13 @@ img{
 	
 /* Use a media query to add a breakpoint at 1080px: */
 @media screen and (max-width: 1080px) {
-.wktitle{
-	font-weight: 800;
+.worklist{
+	padding: 20vh 0;
+ 	font-weight: 500;
+ 	max-height: 90vh;
+ 	}
+ 	
+ .wktitle{
 	font-size: 5vw;
 	}
 }
