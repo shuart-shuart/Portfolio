@@ -10,14 +10,14 @@
 	}
 	
 #LHS{
-	/*background-color: pink;*/
+	background-color: red;
 	max-width: 25vw;
 	min-width: 25vw;
 	transform: translate(0vw, 7vh);
 	}
 		
 #RHS{
-	/*background-color: pink;*/
+	*background-color: pink;*
 	max-width: 73vw;
 	min-width: 73vw;
 	transform: translate(25vw, 7vh);
@@ -61,10 +61,10 @@ h3{ /*artwork info*/
  	
 /*images*/
 .gallery{
-	max-width: 95%;
+	max-width: 90vh;
 	height: 98vh;
 	text-align: center;
-	overflow: visible;
+	overflow: scroll;
 	margin: auto;
 	padding: 0;
 	}
