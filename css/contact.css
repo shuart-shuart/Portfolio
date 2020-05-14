@@ -51,3 +51,23 @@ a{
 	font-style: italic;
 	color: grey;
 	}
+	
+/* Use a media query to add a breakpoint at 600px: */
+@media screen and (max-width: 600px) {
+.columns{
+	max-width: 95vw;
+	min-width: 33vw;
+	max-height: 95vh;
+	height: 95vh;
+	text-align: center;
+	}
+
+#RHS{
+	/*background-color: pink;*/
+	transform: translate(30vw, 0vh);
+	}
+
+/*contact*/
+.contact{
+	font-size: 14pt;
+}
