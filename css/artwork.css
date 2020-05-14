@@ -1,25 +1,25 @@
 /*columns*/
 .columns{
-	max-height: 90vh;
 	height: 90vh;
+	max-height: 90vh;
 	display: block;
 	position: fixed;
 	font-size: 14pt;
 	overflow: scroll;
 	top: 2vh;
-	background: red;
+	background: pink;
 	}
 	
 #LHS{
 	max-width: 25vw;
 	min-width: 25vw;
-	transform: translate(0vw, 7vh);
+	transform: translate(0vw, 3vh);
 	}
 		
 #RHS{
 	max-width: 73vw;
 	min-width: 73vw;
-	transform: translate(25vw, 7vh);
+	transform: translate(25vw, 3vh);
 	}
 	
 /*info*/
@@ -62,7 +62,7 @@ h3{ /*artwork info*/
 /*images*/
 .gallery{
 	max-width: 95vw;
-	height: 95vh;
+	height: 90vh;
 	text-align: center;
 	overflow: scroll;
 	margin: auto;
