@@ -22,7 +22,6 @@
 	}
 		
 #RHS{
-	/*background-color: pink;*/
 	transform: translate(67vw, 3vh);
 	}
  	
@@ -54,15 +53,20 @@ a{
 /* Use a media query to add a breakpoint at 1080px: */
 @media screen and (max-width: 1080px) {
 .columns{
-	max-width: 95vw;
+	width: 100vw;
+	height: 90vh;
+	max-width: 99vw;
 	max-height: 90vh;
 	height: auto;
 	text-align: center;
+	background-color: grey;
+	padding: 0;
 	}
 
 #RHS{
-	/*background-color: pink;*/
-	transform: translate(25vw, 0vh);
+	display: block;
+	margin: auto;
+	transform: translate(0vw, -3vh);
 	}
 
 /*contact*/
