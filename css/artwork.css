@@ -1,12 +1,13 @@
 /*columns*/
 .columns{
-	max-height: 95vh;
+	max-height: 90vh;
 	height: 90vh;
 	display: block;
 	position: fixed;
 	font-size: 14pt;
 	overflow: scroll;
-	top: 0vh;
+	top: 2vh;
+	background: red;
 	}
 	
 #LHS{
