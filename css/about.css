@@ -89,3 +89,30 @@ dd{
 	padding: 0;
 	line-height: 1.2;
 	}
+	
+
+/* Use a media query to add a breakpoint at 600px: */
+@media screen and (max-width: 600px) {
+#LHS{
+    max-width: 95vw; /* The width is 100%, when the viewport is 800px or smaller */
+    max-height: 40vh;
+    margin: auto;
+    text-align: center;
+    }
+    
+.profile{
+	width: 70%;
+	text-align: center;
+	}
+ 
+ #RHS{
+    max-width: 95vw; /* The width is 100%, when the viewport is 800px or smaller */
+    max-height: 57vh;
+    overflow: scroll;
+    margin: auto;
+    top: 40vh;
+    left: -31vw;
+    }   
+
+
+}
