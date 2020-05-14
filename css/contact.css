@@ -23,7 +23,7 @@
 		
 #RHS{
 	/*background-color: pink;*/
-	transform: translate(67vw, 7vh);
+	transform: translate(67vw, 3vh);
 	}
  	
 a{
@@ -41,7 +41,6 @@ a{
 	}
 	
 #contact{
-	width: ;
 	display: block;
 	padding-bottom: 5pt;
 	margin: auto;

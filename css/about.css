@@ -95,7 +95,8 @@ dd{
 @media screen and (max-width: 1080px) {
 #LHS{
     max-width: 95vw; /* The width is 100%, when the viewport is 1080px or smaller */
-    max-height: 25vh;
+    max-height: 20vh;
+    overflow: auto;
     margin: auto;
     text-align: center;
     }
@@ -115,9 +116,10 @@ dd{
     max-height: auto;
     overflow: scroll;
     margin: auto;
-    top: 25vh;
+    padding-top: 0;
+    top: 20vh;
     left: -31vw;
-    background-color: red;
+    background-color: navy;
     }   
     
 #cv{
