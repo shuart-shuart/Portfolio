@@ -106,7 +106,6 @@ dd{
     overflow: scroll;
     margin: auto;
     padding: 0;
-    background: green;
     top: 0;
     left:0;
     }
@@ -121,6 +120,10 @@ dd{
  	font-size: 2vw;
  	}
  	
+ .para{
+ 	font-size: 3vw;
+ 	}
+ 	
 #RHS{
     width: 100vw;
     max-width: 100vw; 
@@ -129,7 +132,6 @@ dd{
     transform: translate(0vw, 26vh);
     left: 0;
     padding: 0;
-    background-color: red;
     }   
     
 #cv{

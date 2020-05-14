@@ -105,3 +105,11 @@ img{
 	top: -60%;
 	left: 200%;
 	}
+	
+/* Use a media query to add a breakpoint at 1080px: */
+@media screen and (max-width: 1080px) {
+.wktitle{
+	font-weight: 800;
+	font-size: 5vw;
+	}
+}
