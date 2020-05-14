@@ -55,8 +55,7 @@ a{
 @media screen and (max-width: 1080px) {
 .columns{
 	max-width: 95vw;
-	min-width: 33vw;
-	max-height: 95vh;
+	max-height: 90vh;
 	height: auto;
 	text-align: center;
 	}
