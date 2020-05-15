@@ -49,6 +49,7 @@ h3{ /*artwork info*/
 	text-decoration: none;
 	font-size: 11pt;
 	margin: auto;
+	overflow: scroll;
 	}
 
 #para{
