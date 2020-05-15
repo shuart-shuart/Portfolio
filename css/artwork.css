@@ -25,6 +25,7 @@
 .info{ /*text*/
 	width: 85%;
 	margin: auto;
+	height: 90vh;
 	overflow: scroll;
 	}
 	
@@ -34,6 +35,7 @@
 	top: 0;
 	left: 0;
 	display: block;
+	padding-bottom: 5pt;
 	background-color: white;
 	}
 
@@ -57,7 +59,6 @@ h3{ /*artwork info*/
 	font-size: 11pt;
 	width: 95%;
 	display: none;
-	overflow: scroll;
 	}	
  	
 /*images*/
