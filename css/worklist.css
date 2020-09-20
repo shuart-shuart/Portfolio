@@ -70,34 +70,42 @@ img{
 	}
 	
 .wktitle #pic1{	
+	position: absolute;
 	top: -20%;
 	left: 80%;
 	}
 .wktitle #pic2{	
+	position: absolute;
 	top: -20%;
 	right: -80%;
 	}
-.wktitle #pic3{		
+.wktitle #pic3{	
+	position: absolute;	
 	top: -20%;
 	left: 80%;
 	}
 .wktitle #pic4{	
+	position: absolute;
 	top: -20%;
 	right: -80%;
 	}
-.wktitle #pic5{		
+.wktitle #pic5{	
+	position: absolute;	
 	top: -20%;
 	left: 80%;
 	}
-.wktitle #pic6{		
+.wktitle #pic6{	
+	position: absolute;	
 	top: -20%;
 	right: -80%;
 	}
-.wktitle #pic7{		
+.wktitle #pic7{	
+	position: absolute;	
 	top: -20%;
 	left: 80%;
 	}
-.wktitle #pic8{		
+.wktitle #pic8{	
+	position: absolute;	
 	top: -20%;
 	right: -80%;
 	}
