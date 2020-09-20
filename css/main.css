@@ -18,9 +18,7 @@
 	width: 100vw;
 	background-color: white;
 	text-align: center;
-	font-size: 0.3vw;
-	min-font-size: 12pt;
-	max-font-size: 26pt;
+	font-size: 12pt;
 	transform: translate(0vw, -1vh);
 	z-index: 1;
 	}
