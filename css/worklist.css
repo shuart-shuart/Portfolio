@@ -77,8 +77,8 @@ img{
 	}
 .wktitle #pic2{	
 	position: absolute;
-	top: -20%;
-	right: -80%;
+	bottom: 20%;
+	right: 80%;
 	}
 .wktitle #pic3{	
 	position: absolute;	
@@ -87,8 +87,8 @@ img{
 	}
 .wktitle #pic4{	
 	position: absolute;
-	top: -20%;
-	right: -80%;
+	bottom: 20%;
+	right: 80%;
 	}
 .wktitle #pic5{	
 	position: absolute;	
@@ -96,9 +96,9 @@ img{
 	left: 80%;
 	}
 .wktitle #pic6{	
-	position: absolute;	
-	top: -20%;
-	right: -80%;
+	position: absolute;
+	bottom: 20%;
+	right: 80%;
 	}
 .wktitle #pic7{	
 	position: absolute;	
@@ -107,8 +107,8 @@ img{
 	}
 .wktitle #pic8{	
 	position: absolute;	
-	top: -20%;
-	right: -80%;
+	bottom: 20%;
+	right: 80%;
 	}
 	
 /* Use a media query to add a breakpoint at 1080px: */
