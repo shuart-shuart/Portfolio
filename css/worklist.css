@@ -77,8 +77,8 @@ img{
 	}
 .wktitle #pic2{	
 	position: absolute;
-	bottom: 20%;
-	right: -80%;
+	top: -20%;
+	right: 20%;
 	}
 .wktitle #pic3{	
 	position: absolute;	
@@ -87,8 +87,8 @@ img{
 	}
 .wktitle #pic4{	
 	position: absolute;
-	bottom: 20%;
-	right: -80%;
+	top: -20%;
+	right: 20%;
 	}
 .wktitle #pic5{	
 	position: absolute;	
@@ -97,7 +97,7 @@ img{
 	}
 .wktitle #pic6{	
 	position: absolute;
-	bottom: 20%;
+	top: -20%;
 	right: -80%;
 	}
 .wktitle #pic7{	
@@ -107,7 +107,7 @@ img{
 	}
 .wktitle #pic8{	
 	position: absolute;	
-	bottom: 20%;
+	top: -20%;
 	right: -80%;
 	}
 	
