@@ -18,7 +18,8 @@
 	width: 100vw;
 	background-color: white;
 	text-align: center;
-	font-size: 12pt;
+	font-size: 5vw;
+	max-font-size: 26pt;
 	transform: translate(0vw, -1vh);
 	z-index: 1;
 	}
