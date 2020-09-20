@@ -56,6 +56,7 @@ a{
 
 .wktitle:hover .pic {
 	display: block;
+	transition: fade in 1s;
 	}
 
 img{
