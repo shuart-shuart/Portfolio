@@ -70,42 +70,42 @@ img{
 .wktitle #pic1{	
 	position: absolute;
 	top: -20%;
-	left: 30vw;
+	right: 40vw;
 	}
 .wktitle #pic2{	
 	position: absolute;
 	top: -20%;
-	right: 70vw;
+	left: 70vw;
 	}
 .wktitle #pic3{	
 	position: absolute;	
 	top: -20%;
-	left: 30vw;
+	right: 40vw;
 	}
 .wktitle #pic4{	
 	position: absolute;
 	top: -20%;
-	right: 70vw;
+	left: 70vw;
 	}
 .wktitle #pic5{	
 	position: absolute;	
 	top: -30%;
-	left: 30vw;
+	right: 40vw;
 	}
 .wktitle #pic6{	
 	position: absolute;
 	top: -30%;
-	right: 70vw;
+	left: 70vw;
 	}
 .wktitle #pic7{	
 	position: absolute;	
 	top: -40%;
-	left: 30vw;
+	right: 40vw;
 	}
 .wktitle #pic8{	
 	position: absolute;	
 	top: -40%;
-	right: 70vw;
+	left: 70vw;
 	}
 	
 /* Use a media query to add a breakpoint at 1080px: */
