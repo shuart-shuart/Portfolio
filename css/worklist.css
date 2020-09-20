@@ -45,7 +45,7 @@ a{
  	
 /*pictures*/
 .wktitle .pic {
-	display: block;
+	display: none;
 	opacity: 0;
 	transition: opacity 1s;
 	width: 300px;
@@ -56,6 +56,7 @@ a{
 	}
 
 .wktitle:hover .pic {
+	display: block;
 	opacity: 0.8;
 	}
 
