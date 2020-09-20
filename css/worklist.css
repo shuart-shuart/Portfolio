@@ -52,7 +52,7 @@ a{
 	width: 300px;
 	height: 300px;
 	/* Position the wktitle */
-	position: absolute;
+	position: static;
 	z-index: -3;
 	}
 
@@ -69,44 +69,36 @@ img{
 	}
 	
 .wktitle #pic1{	
-	position: absolute;
-	top: -40%;
+	top: -20%;
 	left: 80%;
 	}
 .wktitle #pic2{	
-	position: absolute;
-	top: -40%;
-	left: 210%;
+	top: -20%;
+	right: -80%;
 	}
-.wktitle #pic3{	
-	position: absolute;
-	top: -50%;
-	left: 70%;
-	}
-.wktitle #pic4{	
-	position: absolute;
-	top: -30%;
-	left: 210%;
-	}
-.wktitle #pic5{	
-	position: absolute;
-	top: -60%;
+.wktitle #pic3{		
+	top: -20%;
 	left: 80%;
 	}
-.wktitle #pic6{	
-	position: absolute;
-	top: -50%;
-	left: 180%;
+.wktitle #pic4{	
+	top: -20%;
+	right: -80%;
 	}
-.wktitle #pic7{	
-	position: absolute;
-	top: -80%;
-	left: 60%;
+.wktitle #pic5{		
+	top: -20%;
+	left: 80%;
 	}
-.wktitle #pic8{	
-	position: absolute;
-	top: -60%;
-	left: 200%;
+.wktitle #pic6{		
+	top: -20%;
+	right: -80%;
+	}
+.wktitle #pic7{		
+	top: -20%;
+	left: 80%;
+	}
+.wktitle #pic8{		
+	top: -20%;
+	right: -80%;
 	}
 	
 /* Use a media query to add a breakpoint at 1080px: */
