@@ -52,6 +52,7 @@ a{
 	height: 300px;
 	/* Position the wktitle */
 	z-index: -3;
+	position: absolute;
 	}
 
 .wktitle:hover .pic {
@@ -69,7 +70,7 @@ img{
 .wktitle #pic1{	
 	position: absolute;
 	top: -20%;
-	right: 40vw;
+	left: 40vw;
 	}
 .wktitle #pic2{	
 	position: absolute;
@@ -79,7 +80,7 @@ img{
 .wktitle #pic3{	
 	position: absolute;	
 	top: -20%;
-	right: 40vw;
+	left: 40vw;
 	}
 .wktitle #pic4{	
 	position: absolute;
@@ -89,7 +90,7 @@ img{
 .wktitle #pic5{	
 	position: absolute;	
 	top: -30%;
-	right: 40vw;
+	left: 40vw;
 	}
 .wktitle #pic6{	
 	position: absolute;
@@ -99,7 +100,7 @@ img{
 .wktitle #pic7{	
 	position: absolute;	
 	top: -40%;
-	right: 40vw;
+	left: 40vw;
 	}
 .wktitle #pic8{	
 	position: absolute;	
