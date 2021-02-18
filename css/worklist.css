@@ -122,20 +122,20 @@ img{
 /* Use a media query to add a breakpoint at 1080px: */
 @media screen and (max-width: 1080px) {
 .worklist{
-	padding: 20vh 0;
- 	font-weight: 400;
+	transform: (-50%,-50%);
+ 	font-weight: 300;
  	max-height: 90vh;
  	}
  	
 .wktitle{
-	font-size: 16pt;
+	font-size: 15pt;
 	}
 	
-img{
-	max-width: 90vw;
-	max-height: 80vh;
+.wktitle .pic{
+	max-width: 60vw;
+	max-height: 90vh;
 	margin: auto;
 	position: absolute;
-	top: 0; left: 0; bottom: 0; right: 0;
+	z-index: 0;
 	}
 }
