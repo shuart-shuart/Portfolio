@@ -56,7 +56,11 @@ a{
 	}
 
 .wktitle:hover .pic {
-	display: block;
+	display: block;	
+		-webkit-animation: fadeInFromNone 0.3s ease-out;
+		-moz-animation: fadeInFromNone 0.3s ease-out;
+		-o-animation: fadeInFromNone 0.3s ease-out;
+		animation: fadeInFromNone 0.3s ease-out;
 	opacity: 0.8;
 	z-index: -3;
 	}
