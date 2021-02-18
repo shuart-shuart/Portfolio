@@ -47,7 +47,8 @@ h2{ /*artwork title*/
 	
 h3{ /*artwork info*/
 	text-decoration: none;
-	font-size: 1.5vw;
+	font-size: 1.7vw;
+	
 	font-weight: 200;
 	margin: auto;
 	text-align: left;
@@ -55,8 +56,7 @@ h3{ /*artwork info*/
 
 #para{
 	text-align: justify;
-	font-size: 1.7vw;
-	min-font-size: 8pt;
+	font-size:: 8pt;
 	width: 95%;
 	display: block;
 	}	
