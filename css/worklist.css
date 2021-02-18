@@ -41,7 +41,7 @@ a{
 .wklink:hover{
  	font-style: italic;
  	opacity: 0.3;
- 	z-index: 1;
+ 	z-index: 0;
  	}
  	
 /*pictures*/
@@ -58,6 +58,7 @@ a{
 .wktitle:hover .pic {
 	display: block;
 	opacity: 0.8;
+	z-index: -3;
 	}
 
 img{
