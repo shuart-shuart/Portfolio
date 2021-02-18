@@ -123,11 +123,19 @@ img{
 @media screen and (max-width: 1080px) {
 .worklist{
 	padding: 20vh 0;
- 	font-weight: 500;
+ 	font-weight: 400;
  	max-height: 90vh;
  	}
  	
- .wktitle{
-	font-size: 5vw;
+.wktitle{
+	font-size: 16pt;
+	}
+	
+img{
+	max-width: 90vw;
+	max-height: 80vh;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
 	}
 }
