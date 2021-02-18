@@ -122,20 +122,68 @@ img{
 /* Use a media query to add a breakpoint at 1080px: */
 @media screen and (max-width: 1080px) {
 .worklist{
-	transform: (-50%,-50%);
- 	font-weight: 300;
+	padding: 20vh 0;
+ 	font-weight: 500;
+ 	font-size: 14pt;
  	max-height: 90vh;
  	}
  	
 .wktitle{
-	font-size: 15pt;
+	font-size: 5vw;
 	}
-	
-.wktitle .pic{
-	max-width: 60vw;
-	max-height: 90vh;
+
+img{
+	max-width: 50vw;
+	height: auto;
 	margin: auto;
-	position: absolute;
-	z-index: 0;
 	}
+
+.wktitle #pic0 {	
+	position: absolute;
+	top: -20%;
+	left: 0vw;
+	}
+.wktitle #pic1 {	
+	position: absolute;
+	top: -20%;
+	left: 0vw;
+	}
+.wktitle #pic2{	
+	position: absolute;
+	top: -20%;
+	left: 0vw;
+	}
+.wktitle #pic3{	
+	position: absolute;
+	top: -20%;
+	left: 0vw;
+	}
+.wktitle #pic4{	
+	position: absolute;
+	top: -20%;
+	left: 0vw;
+	}}
+.wktitle #pic5{		
+	position: absolute;
+	top: -20%;
+	left: 0vw;
+	}
+.wktitle #pic6{		
+	position: absolute;
+	top: -20%;
+	left: 0vw;
+	}
+.wktitle #pic7{		
+	position: absolute;
+	top: -20%;
+	left: 0vw;
+	}
+.wktitle #pic8{		
+	position: absolute;
+	top: -20%;
+	left: 0vw;
+	}
+
+.wktitle .pic {
+	opacity: .6;
 }
