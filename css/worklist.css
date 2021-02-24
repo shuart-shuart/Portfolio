@@ -47,6 +47,7 @@ a{
 /*pictures*/
 .wktitle .pic {
 	opacity: 0;
+	display: none;
 	transition: opacity 1s;
 	width: 300px;
 	height: 300px;
