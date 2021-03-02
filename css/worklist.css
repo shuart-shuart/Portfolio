@@ -120,8 +120,8 @@ img{
 	left: 70vw;
 	}
 	
-/* Use a media query to add a breakpoint at 1080px: */
-@media screen and (max-width: 1080px) {
+/* Use a media query to add a breakpoint at 480px: */
+@media screen and (max-width: 480px) {
 .worklist{
 	padding: 20vh 0;
  	font-weight: 500;
