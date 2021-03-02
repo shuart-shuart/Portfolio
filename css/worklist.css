@@ -126,6 +126,7 @@ img{
 	padding: 20vh 0;
  	font-weight: 500;
  	font-size: 14pt;
+	height: auto;
  	max-height: 90vh;
  	}
  	
@@ -137,6 +138,7 @@ img{
 	max-width: 45vw;
 	height: auto;
 	margin: auto;
+	display: none;
 	}
 
 .wktitle #pic0 {	
