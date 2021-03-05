@@ -62,7 +62,7 @@ h3{ /*artwork info*/
  	
 /*images*/
 .gallery{
-	max-width: 100vw;
+	max-width: 95vw;
 	height: auto;
 	text-align: center;
 	overflow: scroll;
@@ -71,9 +71,8 @@ h3{ /*artwork info*/
 	}
 
 img{
-	max-width: 90vw;
 	max-height: 85vh;
-	width: auto;
+	max-width: 90vw;
 	margin: auto;
 	padding-top: 5pt;
 	}
