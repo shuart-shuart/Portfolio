@@ -73,12 +73,6 @@ img{
 	height: auto;
 	}
 
-.wktitle #pic-1{	
-	position: absolute;
-	top: -20%;
-	left: 60vw;
-	}
-
 .wktitle #pic0{	
 	position: absolute;
 	top: -10%;
@@ -99,31 +93,6 @@ img{
 	position: absolute;	
 	top: -20%;
 	left: 10vw;
-	}
-.wktitle #pic4{	
-	position: absolute;
-	top: -20%;
-	left: 70vw;
-	}
-.wktitle #pic5{	
-	position: absolute;	
-	top: -20%;
-	right: 10vw;
-	}
-.wktitle #pic6{	
-	position: absolute;
-	top: -20%;
-	left: 70vw;
-	}
-.wktitle #pic7{	
-	position: absolute;	
-	top: -25%;
-	right: 10vw; 
-	}
-.wktitle #pic8{	
-	position: absolute;	
-	top: -25%;
-	left: 70vw;
 	}
 	
 /* Use a media query to add a breakpoint at 480px: */
