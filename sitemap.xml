@@ -35,19 +35,7 @@
 </url>
 
 <url>
-  <loc>https://hongshuying.art/Works/kyakya/kyakya.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://hongshuying.art/Works/memento/memento.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://hongshuying.art/Works/mindseye/mindseye.html</loc>
+  <loc>https://hongshuying.art/Works/lapping/lapping.html</loc>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
@@ -59,19 +47,7 @@
 </url>
 
 <url>
-  <loc>https://hongshuying.art/Works/tangling/tangling.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-
-<url>
   <loc>https://hongshuying.art/Works/things/things.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://hongshuying.art/Works/tissue/tissue.html</loc>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
