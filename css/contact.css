@@ -1,28 +1,18 @@
 /*columns*/
 .columns{
-	max-width: 33vw;
-	min-width: 33vw;
-	max-height: 95vh;
-	height: 95vh;
+	height: 90vh;
+	max-height: 90vh;
 	display: block;
 	position: fixed;
 	font-size: 14pt;
 	overflow: scroll;
 	top: 0vh;
-	}
-	
-#LHS{
-	/*background-color: pink;*/
-	transform: translate(0vw, 7vh);
-	}
-	
-#MHS{
-	/*background-color: pink;*/
-	transform: translate(33.5vw, 7vh);
+	bottom: 0vh;
 	}
 		
 #RHS{
-	transform: translate(67vw, 3vh);
+	width: 33vw;
+	transform: translate(67vw, 7vh);
 	}
  	
 a{
