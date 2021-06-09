@@ -19,47 +19,84 @@
 	
 <!--links for style files (no more style block)-->
 	<!--favicon--><link rel="icon" href="/icon.png" type="image/x-icon">
-	<!--font--><link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+	<!--font--><link rel="preconnect" href="https://fonts.gstatic.com">
+				<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
 	<!--theme--><link rel="stylesheet" type="text/css" href="css/main.css"> 
-	<!--worklist--><link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/shuart-shuart/Portfolio/master/css/worklist.css">
+	<!--worklist--><link rel="stylesheet" type="text/css" href="css/worklist.css">
 <style>
 </style>
 </head>
-
 <body>
 
 <!--nav bar-->
 <nav role="navigation">
 	<ul class="navbar">
+		<li class="namespot" id="namespot"><a href="/Index.html">Shu 舒</a></li>
 		<li class="navspot" id="nav1"><a href="/About.html">about</a></li>
 		<li class="navspot" id="nav2"><a href="/Index.html">works</a></li>
 		<li class="navspot" id="nav3"><a href="/Contact.html">contact</a></li>
 	</ul>
 </nav>
 
-<!--2nd column-->
-<main class="columns" id="MHS">
-<!--List of Works--> <!--need to add hover + pic-->
-	<ul class="worklist">
-		<li class="wktitle">
+<!--1st column-->
+<main class="columns" >
+
+<script>
+$("#RHS > div:gt(0)").hide();
+
+	setInterval(function() {
+	  $('#RHS > div:first')
+			.fadeOut(1000)
+			.next()
+			.fadeIn(1000)
+			.end()
+			.appendTo('#RHS);
+		}, 2400);
+</script>
+
+<!--List of Works-->
+	<ul class="worklist" id="LHS">
+		<li class="wktitle" onMouseOver="a.show('pic0')" onMouseOut="a.hide('pic0')">
 			<a class="wklink" href="/Works/lapping/lapping.html"><span style="font-size:13pt">临摹</span> Lapping Emulations</a>
-			<div class="pic"><img src="thumbnails_com/lapping1.jpg" alt="picture" id="pic0"></div>
 		</li>		
-		<li class="wktitle">
+		<li class="wktitle" onMouseOver="a.show('pic1')" onMouseOut="a.hide('pic1')">
 			<a class="wklink" href="/Works/national_flowers/flowers.html">national flowers</a>
-			<div class="pic"><img src="thumbnails_com/national_flowers.jpg" alt="picture" id="pic1"></div>
 		</li>
-		<li class="wktitle" onmouseover="showpic()">
+		<li class="wktitle" onMouseOver="a.show('pic2')" onMouseOut="a.hide('pic2')">
 			<a class="wklink" href="/Works/things/things.html">Things We Held and Grazed</a>
-			<div class="pic"><img src="thumbnails_com/things.jpg" alt="picture" id="pic2"></div>
 		</li>
-		<li class="wktitle" onmouseover="showpic()">
-			<a class="wklink" href="/Works/asm/asm.html">In the Aisle</a>
-			<div class="pic"><img src="thumbnails_com/asm 1.jpg" alt="picture" id="pic3"
-					      onerror="this.src= 'https://raw.githubusercontent.com/shuart-shuart/Portfolio/master/thumbnails_com/asm%201.jpg' ; "></div>
-		</li>
+		<li class="wktitle" onMouseOver="a.show('pic3')" onMouseOut="a.hide('pic3')">
+			<a class="wklink" href="/Works/asm/asm.html">In the Aisle</a></li>
 	</ul>
-</main>
+	
+<!--2nd column-->
+	<div class="columns" id="RHS">
+		<div class="gallery">
+			<div class="pic"><img src="thumbnails_com/lapping1.jpg" alt="picture" name="a" id="pic0"></div>
+			<div class="pic"><img src="thumbnails_com/national_flowers.jpg" alt="picture" name="a" id="pic1"></div>
+			<div class="pic"><img src="thumbnails_com/things.jpg" alt="picture" name="a" id="pic2"></div>
+			<div class="pic"><img src="thumbnails_com/asm 1.jpg" alt="picture" name="a" id="pic3"></div>
+		</div>
+
+		<script>
+			var myIndex = 0;
+			carousel();
+
+			function carousel() {
+			  var i;
+			  var x = document.getElementsByClassName("pic");
+			  for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+				  }
+			  myIndex++;
+			  if (myIndex > x.length) {myIndex = 1}    
+			  x[myIndex-1].style.display = "block";  
+			  setTimeout(carousel, 3000); // Change image every 2 seconds
+			}
+		</script>
+	</div>
+	
+<br>
 
 <!--footer-->
 <footer>
