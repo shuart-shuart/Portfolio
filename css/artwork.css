@@ -5,8 +5,7 @@
 	display: block;
 	position: fixed;
 	font-size: 14pt;
-	overflow: visible;
-	top: 2vh;
+	overflow: scroll;
 	}
 	
 #LHS{
@@ -86,7 +85,7 @@ img{
 	}
 
 .credits{
-	font-size: 8pt;
+	font-size: 9pt;
 	opacity: 0.7;
 	padding: 0;
 	padding-left: 5%;
