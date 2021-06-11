@@ -97,6 +97,15 @@ img{
 	width: 100vw;
 	max-height: 95vh;
  	overflow: visible;
+ 	}
+
+#LHS{
+	width: 96vw;
+	transform: translate(0vw,7vh);
+	}
+
+#RHS{
+	display: none;
 	}
  	
 .wktitle{
@@ -107,7 +116,3 @@ img{
  	font-size: 12pt;
  	right: 0vw;
     }
-
-img{
-	display: none;
-	}
