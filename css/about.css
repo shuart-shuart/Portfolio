@@ -59,7 +59,7 @@
 	margin: auto;
 	padding: 5vw;
 	padding-left: 7vw;
-	display: none;
+	display: block;
 	}
 
 .big{
@@ -106,21 +106,21 @@ dd{
 #LHS{
 	max-width: 100vw;
 	min-width: 100vw;
-	max-height: auto;
+	height: 28vh;
 	overflow: auto;
 	display: block;
 	text-align: left;
+	border-bottom: 1px solid grey;
 	}
 		
 #RHS{
 	max-width: 100vw;
 	min-width: 100vw;
-	height: auto;
-	overflow: auto;
+	height: 45vh;
 	display: block;
-	padding-top: 0vh;
-	margin-bottom: 15vh;
-	transform: translate(0vw, 30vh);
+	transform: translate(0vw, 35.5vh);
+	padding-top: 2vh;
+	padding-bottom: 15vh;
 	}
     
 /*profile*/
