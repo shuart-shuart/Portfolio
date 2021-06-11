@@ -10,9 +10,10 @@
 	bottom: 0vh;
 	}
 		
-#RHS{
-	width: 33vw;
-	transform: translate(67vw, 7vh);
+#MHS{
+	width: 50vw;
+	height: 10vh;
+	transform: translate(25vw, 40vh);
 	}
  	
 a{
@@ -22,17 +23,14 @@ a{
 
 /*contact*/
 .contact{
-	text-align: center;
-	padding: 40vh 0;
 	text-decoration: underline;
-	font-size: 12pt;
+	font-size: 2vh;
+	max-font-size: 14pt;
+	min-font-size: 12pt;
 	opacity: 0.8;
-	}
-	
-#contact{
-	display: block;
-	padding-bottom: 5pt;
-	margin: auto;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 	}
 	
 #contact:hover{
