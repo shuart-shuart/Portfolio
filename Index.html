@@ -64,6 +64,24 @@
 			<div class="pic"><img src="thumbnails_com/asm 1.jpg" alt="picture" name="a" id="pic3"
 					      onerror="https://raw.githubusercontent.com/shuart-shuart/Portfolio/master/thumbnails_com/asm%201.jpg"></div>
 		</div>
+	
+		<script>
+			var myIndex = 0;
+			carousel();
+
+			function carousel() {
+			  var i;
+			  var x = document.getElementsByClassName("pic");
+			  for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+				  }
+			  myIndex++;
+			  if (myIndex > x.length) {myIndex = 1}    
+			  x[myIndex-1].style.display = "block";  
+			  setTimeout(carousel, 3000); // Change image every 2 seconds
+			}
+		</script>
+		
 	</div>
 	
 <br>
