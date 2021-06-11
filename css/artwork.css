@@ -11,13 +11,13 @@
 #LHS{
 	max-width: 25vw;
 	min-width: 25vw;
-	transform: translate(0vw, 3vh);
+	transform: translate(0vw, 6vh);
 	}
 		
 #RHS{
 	max-width: 73vw;
 	min-width: 73vw;
-	transform: translate(25vw, 3vh);
+	transform: translate(25vw, 6vh);
 	}
 	
 /*info*/
