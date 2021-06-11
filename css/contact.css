@@ -1,5 +1,5 @@
 /*columns*/
-.columns{
+/*.columns{
 	height: 90vh;
 	max-height: 90vh;
 	display: block;
@@ -8,12 +8,13 @@
 	overflow: scroll;
 	top: 0vh;
 	bottom: 0vh;
-	}
+	}*/
 		
-#MHS{
-	width: 50vw;
-	height: 10vh;
-	transform: translate(25vw, 40vh);
+.contact{
+	width: 99vw;
+	height: 93vh;
+	transform: translate(0vw, 6vh);
+	background-color: chartreuse;
 	}
  	
 a{
