@@ -9,9 +9,6 @@
 	top: 0vh;
 	margin: auto;
 	}
-	
-#MHS{
-	}
 			
 /*list of works*/
 .worklist{
@@ -19,7 +16,7 @@
  	display: block;
  	margin: auto;
 	padding: 40vh 0vw;
-     font-weight: 400;
+     	font-weight: 400;
  	max-height: 95vh;
  	overflow: visible;
  	}
@@ -107,19 +104,15 @@ img{
 @media screen and (max-width: 480px) {
 .worklist{
 	padding: 20vh 0;
- 	font-weight: 500;
  	font-size: 14pt;
 	height: auto;
  	max-height: 90vh;
  	}
  	
 .wktitle{
-	font-size: 15pt;
+	font-size: 14pt;
 	}
 
 img{
-	max-width: 45vw;
-	height: auto;
-	margin: auto;
 	display: none;
 	}
