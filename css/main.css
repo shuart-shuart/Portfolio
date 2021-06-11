@@ -110,8 +110,25 @@ body{
 @media screen and (max-width: 480px) {
 .navbar{
 	font-size: 12px;
+	width: 100vw;
     }   
-    
+
+.navspot{
+	display: inline;
+	margin-left: 5vw;
+	color: black;
+	font-size: 12pt;
+	width: 10vw;
+	float: left;
+	}
+
+.namespot{
+	width: 40vw;
+	padding-left: 3.5vw;
+	float: left;
+	text-align: left;
+	}
+
 footer{
 	font-size: 10px;
 	}
