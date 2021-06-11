@@ -11,10 +11,9 @@
 	}*/
 		
 .contact{
-	width: 99vw;
-	height: 93vh;
+	width: 98vw;
+	height: 90vh;
 	transform: translate(0vw, 6vh);
-	background-color: chartreuse;
 	}
  	
 a{
@@ -30,8 +29,8 @@ a{
 	min-font-size: 12pt;
 	opacity: 0.8;
 	display: flex;
-    justify-content: center;
-    align-items: center;
+   	justify-content: center;
+    	align-items: center;
 	}
 	
 #contact:hover{
