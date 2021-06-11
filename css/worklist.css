@@ -65,7 +65,6 @@ a{
 		-o-animation: fadeInFromNone 1.5s ease-out;
 		animation: fadeInFromNone 1.5s ease-out;
 	opacity: 0.8;
-	z-index: -3;
 	}
 
 img{
@@ -75,26 +74,28 @@ img{
 	height: auto;
 	}
 
-.wktitle #pic0{	
+#pic0{	
 	position: absolute;
-	top: -12vh;
-	left: 100vw;
+	top: 35vh;
+	left: 40vw;
 	}
 
-.wktitle #pic1{	
+#pic1{	
 	position: absolute;
-	top: -20vh;
-	left: 100vw;
+	top: 30vh;
+	left: 40vw;
 	}
-.wktitle #pic2{	
+
+#pic2{	
 	position: absolute;
-	top: -17vh;
-	left: 100vw;
+	top: 35vh;
+	left: 40vw;
 	}
-.wktitle #pic3{	
-	position: absolute;	
-	top: -30vh;
-	left: 100vw;
+
+#pic3{
+	position: absolute;
+	top: 35vh;
+	left: 40vw;
 	}
 	
 /* Use a media query to add a breakpoint at 480px: */
