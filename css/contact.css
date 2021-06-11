@@ -9,20 +9,12 @@
 	top: 0vh;
 	bottom: 0vh;
 	}*/
-		
+
+/*contact*/
 .contact{
 	width: 98vw;
 	height: 90vh;
 	transform: translate(0vw, 6vh);
-	}
- 	
-a{
- 	text-decoration: none;
- 	color: black;
- 	}
-
-/*contact*/
-.contact{
 	text-decoration: underline;
 	font-size: 2vh;
 	max-font-size: 14pt;
@@ -37,6 +29,11 @@ a{
 	font-style: italic;
 	color: grey;
 	}
+
+a{
+ 	text-decoration: none;
+ 	color: black;
+ 	}
 	
 /* Use a media query to add a breakpoint at 1080px: */
 @media screen and (max-width: 1080px) {
@@ -58,6 +55,18 @@ a{
 
 /*contact*/
 .contact{
-	padding: 25vh 0;
-	font-size: 4vw;
-}
+	width: 98vw;
+	height: 90vh;
+	transform: translate(0vw, 6vh);
+	text-decoration: underline;
+	font-size: 2vh;
+	max-font-size: 12pt;
+	opacity: 0.8;
+	display: flex;
+	text-align: center;
+    align-items: center;
+	}
+
+#contact{
+	padding: 20vh;
+	}
