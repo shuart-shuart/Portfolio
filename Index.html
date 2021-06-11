@@ -40,32 +40,18 @@
 
 <!--1st column-->
 <main class="columns" >
-
-<script>
-$("#RHS > div:gt(0)").hide();
-
-	setInterval(function() {
-	  $('#RHS > div:first')
-			.fadeOut(1000)
-			.next()
-			.fadeIn(1000)
-			.end()
-			.appendTo('#RHS);
-		}, 2400);
-</script>
-
 <!--List of Works-->
 	<ul class="worklist" id="LHS">
-		<li class="wktitle" onMouseOver="a.show('pic0')" onMouseOut="a.hide('pic0')">
+		<li class="wktitle">
 			<a class="wklink" href="/Works/lapping/lapping.html"><span style="font-size:13pt">临摹</span> Lapping Emulations</a>
 		</li>		
-		<li class="wktitle" onMouseOver="a.show('pic1')" onMouseOut="a.hide('pic1')">
+		<li class="wktitle">
 			<a class="wklink" href="/Works/national_flowers/flowers.html">national flowers</a>
 		</li>
-		<li class="wktitle" onMouseOver="a.show('pic2')" onMouseOut="a.hide('pic2')">
+		<li class="wktitle">
 			<a class="wklink" href="/Works/things/things.html">Things We Held and Grazed</a>
 		</li>
-		<li class="wktitle" onMouseOver="a.show('pic3')" onMouseOut="a.hide('pic3')">
+		<li class="wktitle">
 			<a class="wklink" href="/Works/asm/asm.html">In the Aisle</a></li>
 	</ul>
 	
@@ -78,27 +64,11 @@ $("#RHS > div:gt(0)").hide();
 			<div class="pic"><img src="thumbnails_com/asm 1.jpg" alt="picture" name="a" id="pic3"
 					      onerror="https://raw.githubusercontent.com/shuart-shuart/Portfolio/master/thumbnails_com/asm%201.jpg"></div>
 		</div>
-
-		<script>
-			var myIndex = 0;
-			carousel();
-
-			function carousel() {
-			  var i;
-			  var x = document.getElementsByClassName("pic");
-			  for (i = 0; i < x.length; i++) {
-				x[i].style.display = "none";  
-				  }
-			  myIndex++;
-			  if (myIndex > x.length) {myIndex = 1}    
-			  x[myIndex-1].style.display = "block";  
-			  setTimeout(carousel, 3000); // Change image every 2 seconds
-			}
-		</script>
 	</div>
 	
 <br>
-
+</main>
+	
 <!--footer-->
 <footer>
 	<span>© 2020 Hong Shu-ying 方舒颖</span>
