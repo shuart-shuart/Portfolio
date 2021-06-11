@@ -5,7 +5,7 @@
 	display: block;
 	position: fixed;
 	font-size: 14pt;
-	overflow: scroll;
+	overflow: visible;
 	}
 	
 #LHS{
@@ -22,7 +22,7 @@
 	
 /*info*/
 .info{ /*text*/
-	width: 85%;
+	width: 95%;
 	margin: auto;
 	height: 90vh;
 	overflow: scroll;
@@ -49,12 +49,12 @@ h2{ /*artwork title*/
 	
 h3{ /*artwork info*/
 	text-decoration: none;
-	font-size: 11pt;
+	font-size: 9pt;
 	margin: auto;
 	}
 
 #para{
-	text-align: justify;
+	text-align: left;
 	font-size: 11pt;
 	width: 95%;
 	display: none;
