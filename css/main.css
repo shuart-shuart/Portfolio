@@ -74,6 +74,7 @@ footer {
 /*scrollbar*/
 ::-webkit-scrollbar { /* width */
 	width: 1vw;
+	max-width: 5px;
 	height: 2vh;
 	}
 
