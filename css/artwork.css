@@ -26,16 +26,17 @@
 	margin: auto;
 	height: 90vh;
 	overflow: scroll;
+	transform: translate(1vw, 0vh);
+
 	}
 	
 .label{
-	min-height: 35vh;
+	min-height: 27vh;
 	position: sticky;
 	top: 0;
 	left: 0;
 	display: block;
 	padding-bottom: 5pt;
-	background-color: white;
 	}
 
 h2{ /*artwork title*/
@@ -43,7 +44,7 @@ h2{ /*artwork title*/
 	font-weight: 600;
 	font-size: 13pt;
 	margin: auto;
-	padding-top: 25vh;
+	padding-top: 17vh;
 	padding-bottom: 10pt;
 	}
 	
@@ -56,8 +57,9 @@ h3{ /*artwork info*/
 #para{
 	text-align: left;
 	font-size: 11pt;
-	width: 95%;
-	display: none;
+	width: auto;
+	display: block;
+	padding-top: 4vh;
 	}	
  	
 /*images*/
@@ -80,6 +82,7 @@ img{
 
 .captions{
 	font-size: 9pt;
+	opacity: 0.5;
 	text-align: center;
 	margin: 0;
 	}
@@ -101,6 +104,7 @@ button{
 	height: 7pt;
 	width: 20vw;
 	margin: auto;
+	display: none;
 	}
 	
 button:hover{
