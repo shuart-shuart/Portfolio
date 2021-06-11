@@ -16,9 +16,10 @@
  	display: block;
  	margin: auto;
 	padding: 40vh 0vw;
-     	font-weight: 400;
+     font-weight: 400;
  	max-height: 95vh;
  	overflow: visible;
+	z-index: 1; 
  	}
  	
 .wktitle{
@@ -50,6 +51,7 @@ a{
 	width: 300px;
 	height: 300px;
 	/* Position the wktitle */
+	z-index: -3;
 	position: absolute;
 	}
 
@@ -75,7 +77,7 @@ img{
 	width: 300px;
 	height: 300px;
 	margin: auto;
-	transform: translate(10px, 30vh);
+	transform: translate(1vw, 30vh);
 	text-align: center;
 	display: block;
     }
@@ -102,16 +104,31 @@ img{
 	
 /* Use a media query to add a breakpoint at 480px: */
 @media screen and (max-width: 480px) {
+
+ 	
 .worklist{
-	padding: 20vh 0;
- 	font-size: 14pt;
-	height: auto;
- 	max-height: 90vh;
- 	}
+ 	text-align: center;
+ 	display: block;
+ 	margin: auto;
+	left: 0;
+	width: 100vw;
+	max-height: 95vh;
+ 	overflow: visible;
+	}
  	
 .wktitle{
-	font-size: 14pt;
-	}
+ 	display: block;
+ 	text-align: center;
+ 	opacity: 0.8;
+ 	position: relative;
+ 	font-size: 12pt;
+ 	right: 0vw;
+    }
+
+gallery{
+    width: 100vw;
+    height: 100vh;
+    }
 
 img{
 	display: none;
