@@ -9,7 +9,7 @@
 #LHS{
 	max-width: 99vw;
 	min-width: 99vw;
-	top: 5vh;
+	padding-top: 5vh;
 	display: block;
 	text-align: left;
 	}
