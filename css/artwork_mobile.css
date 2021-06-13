@@ -4,7 +4,6 @@
 	display: block;
 	overflow: scroll;
 	width: 99vw;
-	background-color: burlywood;
 	}
 	
 #LHS{
@@ -67,7 +66,6 @@ h3{ /*artwork info*/
 	overflow: scroll;
 	margin: auto;
 	padding-bottom: 5vh;
-	background-color: bisque;
 	}
 
 img{
