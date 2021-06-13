@@ -4,19 +4,18 @@
 	display: block;
 	overflow: scroll;
 	width: 99vw;
+	background-color: burlywood;
 	}
 	
 #LHS{
-	max-width: 99vw;
-	min-width: 99vw;
+	width: 95.5vw;
 	padding-top: 5vh;
 	display: block;
 	text-align: left;
 	}
 		
 #RHS{
-	max-width: 99vw;
-	min-width: 99vw;
+	width: 95.5vw;
 	display: block;
 	text-align: center;
 	}
@@ -62,19 +61,28 @@ h3{ /*artwork info*/
  	
 /*images*/
 .gallery{
-	max-width: 95vw;
+	max-width: 93vw;
 	height: auto;
 	text-align: center;
 	overflow: scroll;
 	margin: auto;
 	padding-bottom: 5vh;
+	background-color: bisque;
 	}
 
 img{
 	max-height: 85vh;
-	max-width: 90vw;
+	max-width: 85vw;
 	margin: auto;
 	padding-top: 5pt;
+	transform: translate(-6vw, 0vh);
+	}
+
+.multiple{
+	margin: auto;
+	display: block;
+	width: 100%;
+	transform: translate(6vw, 0vh);
 	}
 
 .captions{
