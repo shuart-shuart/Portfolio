@@ -3,19 +3,23 @@
  	display: block;
  	margin: auto;
  	padding: 0;
- 	width: 50vw;
+ 	width: 40vw;
  	transform: translate(0, 20vh);
   	overflow: visible;
  	}
  	
 .wktitle{
  	display: block;
- 	width:50vw;
+ 	width:40vw;
  	text-align: center;
  	}
 
 .info{
 	font-size: 10pt;
+}
+
+#nonart{
+ 	transform: translate(0, 10vh);
 }
 
 .role{
@@ -25,7 +29,3 @@
 
 /* Use a media query to add a breakpoint at 1080px: */
 @media screen and (max-width: 1080px) {
-
-.worklist{
- 	transform: translate(0, 10vh);
- 	}
