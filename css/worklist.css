@@ -4,7 +4,7 @@
  	margin: auto;
  	padding: 0;
  	width: 40vw;
- 	transform: translate(0, 20vh);
+ 	transform: translate(0, 23vh);
   	overflow: visible;
  	}
  	
@@ -18,10 +18,6 @@
 	font-size: 10pt;
 }
 
-#nonart{
- 	transform: translate(0, 10vh);
-}
-
 .role{
 	font-size: 10pt;
 	opacity: 0.6;
@@ -29,3 +25,7 @@
 
 /* Use a media query to add a breakpoint at 1080px: */
 @media screen and (max-width: 1080px) {
+
+#nonart{
+ 	transform: translate(0, 10vh);
+}
