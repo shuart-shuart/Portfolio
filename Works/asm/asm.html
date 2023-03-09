@@ -5,32 +5,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
 <!--for SEO-->
-	<!--for SEO-->
-	<meta name=description content="Hong Shu-ying (b.1997, Singapore) negotiates different coping methods to 
-					  deal with loss, absences, and revelations. She seeks to better understand 
-					  the relationship between self, others, time, and space. Her works span 
-					  mediums like photography and time-based processes.">
-	<meta name=keywords  content="photography,fine art,singapore,artist,nature,shu-ying, shu ying, Hong" />
-	<meta  property=og:title content="Shu - In the Aisle" />
-    <meta  property=og:description content="Hong Shu-ying (b.1997, Singapore) negotiates different coping methods to 
-					  deal with loss, absences, and revelations. She seeks to better understand 
-					  the relationship between self, others, time, and space. Her works span 
-					  mediums like photography and time-based processes.">
+	<meta  property=og:title content="Shu - In the Aisle">
+    <meta  property=og:description content="Hong Shu-ying (b.1997, Singapore) engages in process-led projects to clarify and negotiate 
+					notions of home and familiarity. She is fascinated by the creative potential of nostalgia, 
+					both as a narrative tool and source of enquiry. Informed by her lived experiences and 
+					Chinese culture, she is a keen observer of the traces people leave on and for each other.">
+	<meta name=description content="Hong Shu-ying (b.1997, Singapore) engages in process-led projects to clarify and negotiate 
+					notions of home and familiarity. She is fascinated by the creative potential of nostalgia, 
+					both as a narrative tool and source of enquiry. Informed by her lived experiences and 
+					Chinese culture, she is a keen observer of the traces people leave on and for each other.">
+	<meta name=keywords  content=" Hong Shu-ying, singapore ,artist ,shu-ying, shu ying, Shu" />
 	<meta name="robots" content="index, follow" />
 	
 <!--links for style files (no more style block)-->
 	<!--favicon--><link rel="icon" href="/icon.png" type="image/x-icon">
-	<!--font--><link rel="preconnect" href="https://fonts.gstatic.com">
-				<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
-
 	<!--theme--><link rel="stylesheet" type="text/css" href="/css/main.css"> 
 	<!--artwork--><link rel="stylesheet" type="text/css" 
 		media='screen and (min-width: 1080px)' href="/css/artwork.css">
 	<!--artwork_mobile--><link rel="stylesheet" type="text/css" 
 		media='screen and (max-width: 1080px)' href="/css/artwork_mobile.css">
-
 <style>
-
 .photo_3{
 	width: 30%;
 	margin: auto;
@@ -43,12 +37,28 @@
 	display: inline-block;
 	}
 	
-.multiple{
-	margin: auto;
-	display: block;
-	width: 100%;
 	}
 	
+/* Use a media query to add a breakpoint at 10800px: */
+@media screen and (max-width: 1080px) {
+.photo_2{
+	width: auto;
+	max-width: 90%;
+	max-height: 85vh;
+	margin: auto;
+	padding-bottom: 2pt;
+	display: block;
+	}
+
+.photo_3{
+	width: auto;
+	max-width: 90%;
+	max-height: 85vh;
+	margin: auto;
+	padding-bottom: 2pt;
+	display: block;
+	}
+}
 </style>
 </head>
 
@@ -57,133 +67,120 @@
 <!--nav bar-->
 <nav role="navigation">
 	<ul class="navbar">
-		<li class="namespot" id="namespot"><a href="/Index.html">Shu 舒</a></li>
-		<li class="navspot" id="nav1"><a href="/About.html">about</a></li>
-		<li class="navspot" id="nav2"><a href="/Index.html">works</a></li>
-		<li class="navspot" id="nav3"><a href="/Contact.html">contact</a></li>
+		<li class="namespot" id="namespot">Shu 方舒颖</li>
+		<li class="navspot" id="nav1"><a href="/Index.html">works</a></li>
+		<li class="navspot" id="nav2"><a href="/Projects.html">projects</a></li>
+		<li class="navspot" id="nav3"><a href="/Info.html">info</a></li>
 	</ul>
 </nav>
 
-<!--1st column-->
-<div class="columns" id="LHS">
-	<div class=info>
-		<div class="label">
-			<h2>In the Aisle</h2>
-			<h3>
-				2019<br>
-				Photographic Series with Wheatpasting and Zine <br>
-			</h3>
-		</div>
-		
-		<button type="button" onclick="showpara()" id="dots">more</button>
-		
-		<div id="para">
-			<p><span style="font-style:italic">In the Aisle</span> gathers titbits of conversations and textures 
-			scavenged from Chinese Supermarkets in Edinburgh. These supermarkets function as a third space, playing crucial 
-			social roles within the Chinese diasporic community.
-			</p><p>
-			Driven by the need to mine for social and emotional familiarity as a way of coping, Shu found herself 
-			comfortably nestled within sights and smells reminiscent of home. The most humble and banal conversations 
-			gave pulse to these spaces while the scents and scenes the anxieties of being in a foreign land.
-			</p>
-			<p class="captions"> <i>In the Aisle</i> was made during the occasion of a 14-day study trip to Edinburgh that was organised by 
+<div class="columns" id="LHS"> <!--artwork label-->
+	<div class="label"><p>
+		<span id="title">In the Aisle</span><br>
+		2019<br>
+		Photographic Series with Wheatpasting and Zine <br>
+	</div>
+			
+	<div class="para"> <!--write up-->
+		<p><span style="font-style:italic">In the Aisle</span> gathers titbits of conversations and textures 
+		scavenged from Chinese Supermarkets in Edinburgh. These supermarkets function as a third space, playing crucial 
+		social roles within the Chinese diasporic community.
+		</p><p>
+		Driven by the need to mine for social and emotional familiarity as a way of coping, Shu found herself 
+		comfortably nestled within sights and smells reminiscent of home. The most humble and banal conversations 
+		gave pulse to these spaces while the scents and scenes the anxieties of being in a foreign land.
+		</p>
+			<p class="info"> 
+			<p class="captions"> <span id="title">In the Aisle</span><br> was made during the occasion of a 14-day study trip to Edinburgh that was organised by 
 			NTU School of Art, Design and Media. The work was selected as part of a student showcase at the Pingyao International Photography Festival 2019, 
 			and shown in <i>Bearings</i> at the ADM Gallery.
 			</p>
-		</div>
+		 </p>
 	</div>
 </div>
 
-<!--javascript for cv-->
-<script>
-	function showpara() {
-		document.getElementById("para").style.display = "block";
-		document.getElementById("dots").style.display = "none";
-	}
-</script>
-
-
 <!--2nd column-->
 <main>
-<div class="columns" id="RHS">
-	<div class="gallery">
-		<figure>
+<div class="columns" id="RHS"> <!--Artwork Images-->
+	<div class="gallery">	
+	
+		<div>
 		<img onContextMenu="return false;" class="photo" src="img/asm_1000px_1.jpg">
 		<br>
-		<figcaption class="captions">Installation view at Bearings, ADM Gallery, 2019
+		<p class="captions">Installation view at <i>Bearings</i>, ADM Gallery, 2019
 		<span class="credits">Photo credits: Lin Shiau Yu</span>
-		</figcaption></figure>
+		</p></div>
 		
-		<figure class="multiple">
+		<div>
 		<img onContextMenu="return false;" class="photo_2" src="img/asm_1000px_2.jpg">
 		<img onContextMenu="return false;" class="photo_2" src="img/asm_1000px_3.jpg">
 		<br>
-		<figcaption class="captions">Installation view at Bearings, ADM Gallery, 2019
+		<p class="captions">Installation view at <i>Bearings</i>, ADM Gallery, 2019
 		<span class="credits">Photo credits: Lin Shiau Yu</span>
-		</figcaption></figure>
+		</p></div>
 		
-		<figure>
+		<div>
 		<img onContextMenu="return false;" class="photo" src="img/asm_1000px_4.jpg">
 		<br>
-		<figcaption class="captions">Installation view at Pingyao International Photography Festival, China, 2019
+		<p class="captions">Installation view at Pingyao International Photography Festival, China, 2019
 		<span class="credits">Photo credits: Fitri Yaccob</span>
-		</figcaption></figure>	
+		</p></div>	
 		
-		<figure>
+		<div>
 		<img onContextMenu="return false;" class="photo" src="img/ITA_book_1.jpeg">
 		<br>
-		<figcaption class="captions">Photo documentation of zine
+		<p class="captions">Photo documentation of zine
 		<span class="credits">Photo credits: artist</span>
-		</figcaption></figure>	
+		</p></div>	
 		
-		<figure>
+		<div>
 		<img onContextMenu="return false;" class="photo" src="img/ITA_book_2.jpeg">
 		<br>
-		<figcaption class="captions">Photo documentation of zine
+		<p class="captions">Photo documentation of zine
 		<span class="credits">Photo credits: artist</span>
-		</figcaption></figure>	
+		</p></div>	
 		
-		<figure>
+		<div>
 		<img onContextMenu="return false;" class="photo" src="img/ITA_book_3.jpeg">
 		<br>
-		<figcaption class="captions">Photo documentation of zine
+		<p class="captions">Photo documentation of zine
 		<span class="credits">Photo credits: artist</span>
-		</figcaption></figure>
+		</p></div>
 		
-		<figure>
+		<div>
 		<img onContextMenu="return false;" class="photo" src="img/ITA_book_4.jpeg">
 		<br>
-		<figcaption class="captions">Photo documentation of zine
+		<p class="captions">Photo documentation of zine
 		<span class="credits">Photo credits: artist</span>
-		</figcaption></figure>
+		</p></div>
 		
-<!-- photos -->
-					
-		<figure class="multiple">
+<!-- artwork images, 3 in a row-->
+		<div>
 		<img onContextMenu="return false;" class="photo_3" src="img/asm_1000px_6.jpg">
+		</div><br>
+		<div>
 		<img onContextMenu="return false;" class="photo_3" src="img/asm_1000px_7.jpg">
+		</div><br>
+		<div>
 		<img onContextMenu="return false;" class="photo_3" src="img/asm_1000px_8.jpg">
-		<br>
-		<figcaption class="captions">
-		<span class="credits"></span>
-		</figcaption></figure>
+		</div><br>
 		
-		<figure class="multiple">
+		<div>
 		<img onContextMenu="return false;" class="photo_3" src="img/asm_1000px_11.jpg">
+		</div><br>
+		<div>
 		<img onContextMenu="return false;" class="photo_3" src="img/asm_1000px_9.jpg">
+		</div><br>
+		<div>
 		<img onContextMenu="return false;" class="photo_3" src="img/asm_1000px_10.jpg">
-		<br>
-		<figcaption class="captions">
-		<span class="credits"></span>
-		</figcaption></figure>	
-		<br>
-	</div>
+		</div><br>	
+
 </div>
 </main>
 
 <!--footer-->
 <footer>
-	<span>© 2020 Hong Shu-ying 方舒颖</span>
+	<span>© 2023 Hong Shu-ying 方舒颖</span>
 </footer>
 </body>
 
