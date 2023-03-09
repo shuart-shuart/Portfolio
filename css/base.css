@@ -1,0 +1,135 @@
+html {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+/*body*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100&family=Poppins:wght@100&display=swap');
+
+body{
+	padding: 0;
+	color: rgba(0, 0, 0, 0.6); /*dark grey*/
+	font-family: 'Noto Sans SC', sans-serif; 
+	font-weight: 100;
+	font-size: 12pt;
+	cursor: crosshair;
+	}
+
+/*links*/
+a{
+	color: rgba(0, 0, 0, 0.8); /*dark grey*/
+	text-decoration: underline;
+	transition: all 0.8s ease;
+	}
+
+a:hover {
+	opacity: 0.55;
+	font-weight: 300;
+	font-size: 14pt;
+	transition: all 0.3s ease;
+	cursor: ne-resize;
+	}
+	
+/*nav bar*/
+.navbar{
+	position: fixed;
+	width: 100vw;
+	height: 4vh;
+	min-height: 20pt;
+	padding:0.5vh;
+	left: 0;
+	top: 0;
+	text-align: center;
+	list-style-type: none;
+	z-index: 1;
+	}
+	
+.namespot{
+	display: inline;
+	width: 64.5vw;
+	padding:0;
+	padding-left: 4.5vw;
+	margin: 0;
+	float: left;
+	text-align: left;
+	color: black;
+	font-size: 14pt;
+	font-weight: 300;
+	}
+
+.navspot{
+	width: 10vw;
+	padding:0;
+	margin: 0;
+	float: left;
+	color: rgba(0, 0, 0, 0.8); /*dark grey*/
+	font-weight: 100;
+	text-decoration: none;
+	}
+			
+/*footer*/
+footer {
+	position: fixed;
+	width: 100vw;
+	height: 3vh;
+	padding: 0.5vh;
+	bottom: 0;
+	right: 0;
+	min-height: 15pt;
+	text-align: center;
+	font-size: 10pt;
+	background-color: white;
+	}
+	
+/*scrollbar*/
+::-webkit-scrollbar { /* width */
+	width: 1vw;
+	max-width: 5px;
+	height: 2vh;
+	}
+
+::-webkit-scrollbar-track { /* Track */
+	background: white;
+	}
+ 
+::-webkit-scrollbar-thumb { /* Handle */
+	background: rgba(0, 0, 0, 0.08);/*light grey*/
+	}
+
+::-webkit-scrollbar-thumb:hover { /* Handle on hover */
+	background: rgba(0, 0, 0, 0.8); /*dark grey*/
+	}
+	
+/* Use a media query to add a breakpoint at 480px: */
+@media screen and (max-width: 480px) {
+.navbar{
+	width: 100vw;
+	font-size: 12px;
+    }   
+
+.navspot{
+	display: inline;
+	margin-left: 5vw;
+	width: 10vw;
+	float: left;
+	color: black;
+	font-size: 12pt;
+	}
+
+.namespot{
+	width: 40vw;
+	padding-left: 3.5vw;
+	float: left;
+	text-align: left;
+	}
+
+footer{
+	font-size: 10px;
+	}
+	
+.body{
+	min-font-size: 10pt;
+	font-weight: 200;
+	}
+}
