@@ -1,17 +1,17 @@
 /*columns*/
 .columns{
-	height: 90vh;
-	max-height: 90vh;
 	display: block;
 	position: fixed;
-	font-size: 14pt;
-	overflow: visible;
+	height: 90vh;
+	max-height: 90vh;
+	overflow: scroll;
 	}
 	
 #LHS{
-	max-width: 25vw;
-	min-width: 25vw;
-	transform: translate(0vw, 6vh);
+	max-width: 24vw;
+	min-width: 24vw;
+	transform: translate(1vw, 6vh);
+	font-size: 10pt;
 	}
 		
 #RHS{
@@ -20,56 +20,46 @@
 	transform: translate(25vw, 6vh);
 	}
 	
-/*info*/
-.info{ /*text*/
-	width: 95%;
-	margin: auto;
-	height: 90vh;
-	overflow: scroll;
-	transform: translate(1vw, 0vh);
-
-	}
-	
+/*artwork info*/
 .label{
-	min-height: 27vh;
-	position: sticky;
-	top: 0;
-	left: 0;
 	display: block;
 	padding-bottom: 5pt;
 	}
-
-h2{ /*artwork title*/
-	font-style: italic;
-	font-weight: 600;
-	font-size: 13pt;
-	margin: auto;
-	padding-top: 17vh;
-	padding-bottom: 10pt;
-	}
-	
-h3{ /*artwork info*/
-	text-decoration: none;
-	font-size: 9pt;
-	margin: auto;
-	}
-
-#para{
-	text-align: left;
-	font-size: 11pt;
+		
+.para{ /*writeup*/
 	width: auto;
 	display: block;
-	padding-top: 4vh;
+	padding-top: 15pt;
 	}	
- 	
+
+
+.info{ /*extra info*/
+	margin: auto;
+	font-size: 9pt;
+	opacity: 0.5;
+	}
+		
+#title{ /*artwork title*/
+	color: black;
+	font-weight: 500;
+	}
+	
+.label a:hover{
+	font-size: 10.2pt;
+	}
+	
+.para a:hover{
+	font-size: 10.2pt;
+	}
+	
 /*images*/
 .gallery{
 	max-width: 95vw;
 	height: 90vh;
 	text-align: center;
-	overflow: scroll;
 	margin: auto;
-	padding-bottom: 10%;
+	
+	background-color: rgab(25,56,37, 0.3);
 	}
 
 img{
@@ -82,38 +72,14 @@ img{
 
 .captions{
 	font-size: 9pt;
-	opacity: 0.5;
-	text-align: center;
 	margin: 0;
 	}
 
 .credits{
 	font-size: 9pt;
-	opacity: 0.7;
+	opacity: 0.5;
 	padding: 0;
 	padding-left: 5%;
 	margin: 0;
 	}
-	
-/*button*/
-button{
-	background-color: rgba(242, 44, 48, 1);
-	color: rgba(242, 44, 48, 0);
-	opacity: 0.1;
-	text-align: center;
-	height: 7pt;
-	width: 20vw;
-	margin: auto;
-	display: none;
-	}
-	
-button:hover{
-	background-color: rgba(242, 44, 48, 0.3);
-	color: rgba(0, 0, 0, 0.8);
-	opacity: 1;
-	height: 15pt;
-	}
-	
-#button{
-	display: block;
-	}
+

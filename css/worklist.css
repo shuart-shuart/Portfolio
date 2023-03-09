@@ -1,118 +1,30 @@
-/*columns*/
-.columns{
-	height: 90vh;
-	display: block;
-	position: absolute;
-	font-size: 14pt;
-	top: 0vh;
-	margin: auto;
-	}
-	
-#LHS{
-	width: 43vw;
-	transform: translate(0vw,7vh);
-	}
-
-#RHS{
-	width: 50vw;
-	transform: translate(45vw,7vh);
-	}
-				
 /*list of works*/
 .worklist{
- 	text-align: center;
  	display: block;
  	margin: auto;
-	padding: 45% 0vw;
- 	overflow: visible;
+ 	padding: 0;
+ 	width: 50vw;
+ 	transform: translate(0, 20vh);
+  	overflow: visible;
  	}
  	
 .wktitle{
  	display: block;
- 	text-align: right;
- 	padding: 5pt;
- 	opacity: 0.8;
- 	position: relative;
- 	font-size: 12pt;
+ 	width:50vw;
+ 	text-align: center;
  	}
 
- 	
-a{
- 	text-decoration: none;
- 	color: black;
- 	}
- 	
-.wklink:hover{
- 	font-style: italic;
- 	opacity: 0.3;
- 	}
- 	
-/*pictures*/	
-img{
-	width: auto;
-	height: auto;
-	max-width: 50vw;
-	max-height: 65vh;
-	float: left;
-	margin: auto;
-	}
+.info{
+	font-size: 10pt;
+}
 
-.gallery{
-	width: 50vw;
-	height: 65vh;
-	text-align: center;
-	display: block;
-	transform: translate(0vw, 12.5vh);
-    }
+.role{
+	font-size: 10pt;
+	opacity: 0.6;
+}
 
-/*#pic0{	
-	position: relative;
-	top: 30px;
-	}
-
-#pic1{	
-	position: relative;
-	top: 0px;
-	}
-
-#pic2{	
-	position: relative;
-	top: 55px;
-	}
-
-#pic3{
-	position: relative;
-	top: 20px;
-	}*/
-	
 /* Use a media query to add a breakpoint at 480px: */
 @media screen and (max-width: 480px) {
 
  	
-.worklist{
- 	text-align: center;
- 	display: block;
- 	margin: auto;
-	left: 0;
-	width: 100vw;
-	max-height: 95vh;
- 	overflow: visible;
- 	}
-
-#LHS{
-	width: 96vw;
-	transform: translate(0vw,7vh);
-	}
-
-#RHS{
-	display: none;
-	}
- 	
-.wktitle{
- 	display: block;
- 	text-align: center;
- 	opacity: 0.8;
- 	position: relative;
- 	font-size: 12pt;
- 	right: 0vw;
-    }
+/*same same*/
