@@ -11,7 +11,7 @@
 	width: 85vw;
 	margin: auto;
 	text-align: left;
-	font-size: 9pt;
+	font-size: 8pt;
 	transform: translate (5vw, 0vh);
 	}
 		
@@ -19,7 +19,7 @@
 	display: block;	
 	width: 98vw;
 	text-align: center;
-	font-size: 8pt;
+	font-size: 7pt;
 	transform: translate (5vw, 0vh);
 	}
 	
@@ -39,7 +39,7 @@
 
 .info{ /*extra info*/
 	margin: auto;
-	font-size: 8pt;
+	font-size: 7pt;
 	opacity: 0.5;
 	}
 		
